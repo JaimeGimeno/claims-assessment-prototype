@@ -84,8 +84,14 @@ def route_claim(claim: dict, assessment: dict, findings: list, estimate: dict, s
     if reasons_full:
         return {"route": FULL_REVIEW, "reasons": reasons_full, "flags": flags, "notes": notes,
                 "info_requests": list(assessment.get("info_requests") or [])}
+    # Say only what is true of this claim: a fast-track claim can hold moderate damage,
+    # and a finding the two runs graded differently, as long as none is below the confidence limit.
+    severities = {f.get("severity") for f in findings}
+    damage = "Minor damage" if severities <= {"minor"} else ("No severe damage" if "severe" not in severities else "Damage within the limits")
+    agree = all(f.get("agreement") in ("both_runs", "adjuster", None) or f.get("edited") for f in findings)
+    runs = "the two AI runs agree" if agree else "no finding is below the confidence limit"
     return {
         "route": FAST_TRACK,
-        "reasons": [{"code": "fast_track", "text": "Minor damage, the two AI runs agree, and the estimate is under the limit."}],
+        "reasons": [{"code": "fast_track", "text": f"{damage}, {runs}, and the estimate is under the limit."}],
         "flags": flags, "notes": notes, "info_requests": [],
     }

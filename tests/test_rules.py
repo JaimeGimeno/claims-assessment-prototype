@@ -175,3 +175,12 @@ def test_reference_total_has_no_gap_for_accepted_alternatives():
     ai = [finding(sev="moderate")]
     cmp = evaluation.compare(ai, ref)
     assert evaluation.reference_total(cmp, "midsize_standard") == pricing.build_estimate(ai, "midsize_standard")["totals"]["total"]
+
+
+def test_fast_track_reason_says_only_what_is_true():
+    minor = [finding(dtype="scratch", agreement="both_runs")]
+    mixed = [finding(dtype="scratch", sev="moderate", conf="medium", agreement="severity_differs")]
+    r1, r2 = route(minor), route(mixed)
+    assert r1["route"] == r2["route"] == "fast_track"
+    assert r1["reasons"][0]["text"].startswith("Minor damage, the two AI runs agree")
+    assert r2["reasons"][0]["text"].startswith("No severe damage, no finding is below the confidence limit")
