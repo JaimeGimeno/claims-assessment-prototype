@@ -77,7 +77,7 @@ What keeps it honest:
 
 ### Labels
 
-- **Human-checked (36 photos).** For 20 public photos an AI drafted the reading and a person confirmed or corrected each one; 9 of the 20 were corrected. For the 16 own photos a person described the damage first. The first method favours Claude somewhat.
+- **Human-checked (36 photos).** One person checked every label against the photo: 20 public photos and 16 taken for this project. The labeller is not a trained adjuster.
 - **AI-labelled (46 photos).** `scripts/ai_label.py` has four models from three providers (Claude, Gemini, OpenAI) label each photo, with extra input the app doesn't get (the dataset's damage outlines). A finding is kept when at least two of them agree. Nobody checked these labels. They are reported separately, next to a measurement of how well the same method reproduces the human-checked labels.
 
 ## Security of the demo
