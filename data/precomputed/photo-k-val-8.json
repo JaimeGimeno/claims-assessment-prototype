@@ -1,0 +1,140 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-val-8",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front right corner, close three-quarter view",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 221.6,
+    "brightness": 106.2,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver Toyota Highlander Hybrid SUV (Hybrid badge visible)",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-8",
+   "reason": "The right end of the bumper cover is crushed and torn, with scraped paint and a deformed fog lamp opening.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f1"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-8",
+   "reason": "The front right fender has a sharp crease and buckled metal at the front top edge near the headlamp, with paint cracked along the fold.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-val-8",
+   "reason": "The right front edge of the hood looks deformed and pushed in beside the fender crease, and the panel gap near the headlamp is uneven.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f3"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-8",
+   "reason": "Bumper cover corner is crushed and deformed with torn, scraped paint and a split edge near the fog lamp opening.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-8",
+   "reason": "Front left fender has a sharp crease and buckle near the headlamp and top edge, with paint cracked along the fold.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f5"
+  },
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-val-8",
+   "reason": "Hood edge near the left front corner appears pushed in and distorted where it meets the fender.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f6"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "A heavy front corner impact has creased the fender and crushed the bumper end, and the panel gaps around the headlamp and hood are disturbed, so the support structure behind them may be affected.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "suv_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03103,
+ "latency_s": 5.2,
+ "tokens_in": 9258,
+ "tokens_out": 1251,
+ "runs_failed": 0
+}

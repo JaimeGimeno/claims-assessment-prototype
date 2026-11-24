@@ -1,0 +1,94 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-51",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front three-quarter view from the front right, showing the front, hood and right side",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 256.4,
+    "brightness": 68.6,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver VW Golf hatchback (Mk4), VW badge visible",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "no",
+  "reason": "The description says the front right corner took the hit, but the visible damage is on the front left (driver's side) corner. The front right headlamp, fender and bumper look intact."
+ },
+ "findings": [
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-51",
+   "reason": "The hood is buckled and creased near the front left corner, with visible fold lines running back across the panel.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "moderate",
+   "confidence": "low",
+   "id": "f1"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "left",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-51",
+   "reason": "The left headlamp area is distorted and looks displaced or damaged at the corner, next to the buckled hood.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "moderate",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-51",
+   "reason": "The left corner of the bumper is deformed and scuffed, and the bumper edge looks pushed in.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The hood is buckled and the front left corner is pushed in, so the radiator support and the front left frame area may be affected.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03053,
+ "latency_s": 5.0,
+ "tokens_in": 9324,
+ "tokens_out": 1189,
+ "runs_failed": 0
+}

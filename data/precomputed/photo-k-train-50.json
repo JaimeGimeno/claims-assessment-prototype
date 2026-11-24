@@ -1,0 +1,124 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-50",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front three-quarter view from the front left, showing the front end and hood",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 968.7,
+    "brightness": 80.3,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver Volkswagen Golf hatchback, older generation",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-50",
+   "reason": "Hood is buckled and creased across its width with folds near the front edge and paint chipped.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "center",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-50",
+   "reason": "Bumper cover is torn and broken away in the centre and right, with the grille area open and the cover deformed.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "grille",
+   "part_name": "Grille",
+   "side": "center",
+   "damage_type": "missing_part",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-50",
+   "reason": "Grille is missing or destroyed, exposing the front panel and the engine bay.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f3"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "left",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-50",
+   "reason": "Left headlamp is displaced and loose in its mounting, with its surround broken.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f4"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "right",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-50",
+   "reason": "Right headlamp is out of position and loose, with the mounting area torn and pushed in.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f5"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "Heavy frontal impact with a buckled hood, the front panel and bumper support area exposed and broken, and displaced headlamps suggest damage to the radiator support and front structure.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03514,
+ "latency_s": 6.5,
+ "tokens_in": 9258,
+ "tokens_out": 1662,
+ "runs_failed": 0
+}

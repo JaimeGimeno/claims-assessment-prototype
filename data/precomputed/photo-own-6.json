@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-6",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear left three-quarter view of a dark blue Toyota Auris hatchback in a parking garage",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 626.8,
+    "brightness": 117.3,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark blue Toyota Auris hatchback, rear left three-quarter view",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "own-6",
+   "reason": "The rear edge of the left rear door has a visible dent with scraped paint and scratches near the door edge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "own-6",
+   "reason": "Scratches and scuffs are visible on the left side of the rear bumper cover near the wheel arch.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03091,
+ "latency_s": 4.0,
+ "tokens_in": 11224,
+ "tokens_out": 847,
+ "runs_failed": 0
+}

@@ -1,0 +1,124 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-48",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left three-quarter view of a silver BMW estate",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 197.2,
+    "brightness": 120.7,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver BMW 3 Series estate (wagon)",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-48",
+   "reason": "Left front fender is heavily creased and crumpled with paint scraped to bare metal and rust-coloured marks, and it is pushed into the door gap.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-48",
+   "reason": "Left side of the bumper cover is torn and deformed, with scrapes and gouges, and it is pushed in toward the wheel.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-48",
+   "reason": "Left front door is deeply creased and buckled at the front edge and across the panel, and the door shut line is distorted.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f3"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-48",
+   "reason": "Left sill below the front door looks bent and deformed toward the front, next to the damaged door and wheel arch.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  },
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-48",
+   "reason": "The front edge of the left rear door appears to have a slight waviness, but the photo is not clear.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f5"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "A heavy impact on the left front has crushed the fender and door and bent the sill, and the open wheel arch area and the door shut lines are distorted, so the A-pillar, sill and front suspension mounting may be affected.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03645,
+ "latency_s": 6.8,
+ "tokens_in": 9258,
+ "tokens_out": 1793,
+ "runs_failed": 0
+}

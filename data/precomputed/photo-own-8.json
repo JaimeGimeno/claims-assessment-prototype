@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-8",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "right side of the car, showing the front and rear doors",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 251.7,
+    "brightness": 115.3,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Blue compact sedan or hatchback, right side, four doors",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "own-8",
+   "reason": "The rear edge of the rear door has a dent with scraped paint along the door gap beside the front door.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f1"
+  },
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "own-8",
+   "reason": "The rear edge of the front door has scuffs and scratches in line with the rear door damage.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03061,
+ "latency_s": 3.8,
+ "tokens_in": 11224,
+ "tokens_out": 817,
+ "runs_failed": 0
+}

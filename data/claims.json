@@ -1,0 +1,494 @@
+[
+ {
+  "id": "CLM-1001",
+  "policy_number": "POL-48247",
+  "policyholder": "Daniel Whitaker",
+  "vehicle": {
+   "make": "Tesla",
+   "model": "Model 3",
+   "year": 2021,
+   "color": "black",
+   "vehicle_class": "midsize_luxury",
+   "value": 27500
+  },
+  "accident_description": "Scraped a concrete pillar while reversing out of a parking space. Marks on the rear left corner, and I think the front left too.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "own-1",
+   "own-2",
+   "own-3",
+   "own-4",
+   "own-5"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1002",
+  "policy_number": "POL-48284",
+  "policyholder": "Priya Raman",
+  "vehicle": {
+   "make": "Toyota",
+   "model": "Auris",
+   "year": 2009,
+   "color": "blue",
+   "vehicle_class": "small_standard",
+   "value": 4900
+  },
+  "accident_description": "Another car scraped along the right side in a car park and drove off. Damage on the doors and the rear corner.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "own-6",
+   "own-7",
+   "own-8",
+   "own-9"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1003",
+  "policy_number": "POL-48321",
+  "policyholder": "Priya Raman",
+  "vehicle": {
+   "make": "Toyota",
+   "model": "Auris",
+   "year": 2009,
+   "color": "blue",
+   "vehicle_class": "small_standard",
+   "value": 4900
+  },
+  "accident_description": "Found the car with a dent between the two doors on the left side, and small marks on the front bumper.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "own-10",
+   "own-11",
+   "own-12",
+   "own-13",
+   "own-14",
+   "own-15"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1004",
+  "policy_number": "POL-48358",
+  "policyholder": "Marcus Oyelaran",
+  "vehicle": {
+   "make": "BMW",
+   "model": "3 Series Coupe",
+   "year": 2011,
+   "color": "grey",
+   "vehicle_class": "midsize_luxury",
+   "value": 9800
+  },
+  "accident_description": "Someone bumped into the front of the car while it was parked.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "own-16"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1005",
+  "policy_number": "POL-48395",
+  "policyholder": "Hannah Lindqvist",
+  "vehicle": {
+   "make": "Volkswagen",
+   "model": "Polo",
+   "year": 2012,
+   "color": "silver",
+   "vehicle_class": "small_standard",
+   "value": 6800
+  },
+  "accident_description": "Hit on the driver's side by a car pulling out of a side street. Both doors are pushed in.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-17"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1006",
+  "policy_number": "POL-48432",
+  "policyholder": "Olivier Marchand",
+  "vehicle": {
+   "make": "Volkswagen",
+   "model": "Golf",
+   "year": 2002,
+   "color": "silver",
+   "vehicle_class": "small_standard",
+   "value": 2600
+  },
+  "accident_description": "Ran into the back of a van at low speed. The front right corner took the hit.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-51"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1007",
+  "policy_number": "POL-48469",
+  "policyholder": "Sofia Castellano",
+  "vehicle": {
+   "make": "Peugeot",
+   "model": "207",
+   "year": 2010,
+   "color": "grey",
+   "vehicle_class": "small_standard",
+   "value": 4700
+  },
+  "accident_description": "Scraped a wall with the rear corner while parking.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-79"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1008",
+  "policy_number": "POL-48506",
+  "policyholder": "Tomás Herrera",
+  "vehicle": {
+   "make": "Kia",
+   "model": "Carnival",
+   "year": 2008,
+   "color": "silver",
+   "vehicle_class": "suv_standard",
+   "value": 5200
+  },
+  "accident_description": "Reversed into a bollard. Dent on the rear bumper corner.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-49"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1009",
+  "policy_number": "POL-48543",
+  "policyholder": "Lucía Ferrer",
+  "vehicle": {
+   "make": "Seat",
+   "model": "Leon",
+   "year": 2011,
+   "color": "white",
+   "vehicle_class": "small_standard",
+   "value": 7400
+  },
+  "accident_description": "A car scraped along the passenger side in a garage. Doors and sill are marked.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-16"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1010",
+  "policy_number": "POL-48580",
+  "policyholder": "Rafael Domínguez",
+  "vehicle": {
+   "make": "Chevrolet",
+   "model": "Aveo",
+   "year": 2014,
+   "color": "silver",
+   "vehicle_class": "small_standard",
+   "value": 6100
+  },
+  "accident_description": "Clipped a painted post with the front corner while turning into a driveway.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-6"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1011",
+  "policy_number": "POL-48617",
+  "policyholder": "Marta Kowalczyk",
+  "vehicle": {
+   "make": "Skoda",
+   "model": "Fabia",
+   "year": 2004,
+   "color": "green",
+   "vehicle_class": "small_standard",
+   "value": 2300
+  },
+  "accident_description": "Scraped against a garage pillar along the rear right side.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-val-62"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1012",
+  "policy_number": "POL-48654",
+  "policyholder": "Ibrahim Saleh",
+  "vehicle": {
+   "make": "Kia",
+   "model": "Carens",
+   "year": 2007,
+   "color": "silver",
+   "vehicle_class": "suv_standard",
+   "value": 3400
+  },
+  "accident_description": "Rear-ended at a traffic light by a delivery van.",
+  "drivable": false,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-63"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1013",
+  "policy_number": "POL-48691",
+  "policyholder": "Chloe Bennett",
+  "vehicle": {
+   "make": "Mazda",
+   "model": "3",
+   "year": 2016,
+   "color": "dark grey",
+   "vehicle_class": "small_standard",
+   "value": 11500
+  },
+  "accident_description": "Hit a low concrete block with the passenger door while pulling out.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-68"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1014",
+  "policy_number": "POL-48728",
+  "policyholder": "Stefan Albrecht",
+  "vehicle": {
+   "make": "BMW",
+   "model": "3 Series Touring",
+   "year": 2008,
+   "color": "silver",
+   "vehicle_class": "midsize_luxury",
+   "value": 6500
+  },
+  "accident_description": "Collision with a truck on the driver's side at a junction. The car was towed.",
+  "drivable": false,
+  "airbags_deployed": true,
+  "photos": [
+   "k-train-25"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1015",
+  "policy_number": "POL-48765",
+  "policyholder": "Emma Vasseur",
+  "vehicle": {
+   "make": "Volkswagen",
+   "model": "Golf",
+   "year": 2010,
+   "color": "grey",
+   "vehicle_class": "small_standard",
+   "value": 8200
+  },
+  "accident_description": "Rear-ended in slow traffic. Tailgate and bumper are damaged.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-36"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1016",
+  "policy_number": "POL-48802",
+  "policyholder": "Javier Montoro",
+  "vehicle": {
+   "make": "Ford",
+   "model": "Focus",
+   "year": 2006,
+   "color": "dark grey",
+   "vehicle_class": "small_standard",
+   "value": 3100
+  },
+  "accident_description": "Backed into a lamp post. Rear left corner is crushed.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-44"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1017",
+  "policy_number": "POL-48839",
+  "policyholder": "Naomi Fischer",
+  "vehicle": {
+   "make": "Honda",
+   "model": "Civic",
+   "year": 2004,
+   "color": "silver",
+   "vehicle_class": "small_standard",
+   "value": 3600
+  },
+  "accident_description": "Sideswiped at the rear left while parked on the street.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-73"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1018",
+  "policy_number": "POL-48876",
+  "policyholder": "Pieter de Graaf",
+  "vehicle": {
+   "make": "Volkswagen",
+   "model": "Golf",
+   "year": 2011,
+   "color": "grey",
+   "vehicle_class": "small_standard",
+   "value": 8900
+  },
+  "accident_description": "Hit a gate post with the front left corner.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-20"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1019",
+  "policy_number": "POL-48913",
+  "policyholder": "Carmen Ibáñez",
+  "vehicle": {
+   "make": "Seat",
+   "model": "Altea",
+   "year": 2009,
+   "color": "white",
+   "vehicle_class": "small_standard",
+   "value": 5300
+  },
+  "accident_description": "Touched a tow bar while reversing. Marks on the rear bumper.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-val-3"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1020",
+  "policy_number": "POL-48950",
+  "policyholder": "Arjun Mehta",
+  "vehicle": {
+   "make": "Toyota",
+   "model": "Fortuner",
+   "year": 2012,
+   "color": "silver",
+   "vehicle_class": "suv_standard",
+   "value": 17500
+  },
+  "accident_description": "A car reversed into the rear left corner in a supermarket car park.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-2"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1021",
+  "policy_number": "POL-48987",
+  "policyholder": "Grace Sullivan",
+  "vehicle": {
+   "make": "Chevrolet",
+   "model": "Cobalt",
+   "year": 2007,
+   "color": "gold",
+   "vehicle_class": "small_standard",
+   "value": 4200
+  },
+  "accident_description": "Backed into a pole. Deep dent in the rear bumper corner.",
+  "drivable": true,
+  "airbags_deployed": false,
+  "photos": [
+   "k-val-1"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1022",
+  "policy_number": "POL-49024",
+  "policyholder": "Derek Lawson",
+  "vehicle": {
+   "make": "Saturn",
+   "model": "Ion",
+   "year": 2004,
+   "color": "green",
+   "vehicle_class": "small_standard",
+   "value": 2400
+  },
+  "accident_description": "Front-end collision with the car ahead on a wet road. The hood won't close.",
+  "drivable": false,
+  "airbags_deployed": false,
+  "photos": [
+   "k-train-27"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1023",
+  "policy_number": "POL-49061",
+  "policyholder": "Elena Robles",
+  "vehicle": {
+   "make": "Seat",
+   "model": "Ibiza",
+   "year": 2012,
+   "color": "white",
+   "vehicle_class": "small_standard",
+   "value": 7200
+  },
+  "accident_description": "T-boned on the passenger side at a crossing.",
+  "drivable": false,
+  "airbags_deployed": true,
+  "photos": [
+   "k-train-18"
+  ],
+  "sample": true
+ },
+ {
+  "id": "CLM-1024",
+  "policy_number": "POL-49098",
+  "policyholder": "Víctor Salgado",
+  "vehicle": {
+   "make": "Audi",
+   "model": "A3",
+   "year": 2001,
+   "color": "dark blue",
+   "vehicle_class": "small_luxury",
+   "value": 2900
+  },
+  "accident_description": "Rear-ended while stopped at a roundabout.",
+  "drivable": false,
+  "airbags_deployed": false,
+  "photos": [
+   "k-val-32"
+  ],
+  "sample": true
+ }
+]

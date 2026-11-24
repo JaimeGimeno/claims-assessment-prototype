@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-2",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear left corner of the vehicle, close three-quarter view",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 236.4,
+    "brightness": 138.7,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver SUV resembling a Toyota Fortuner, seen from the rear left",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-2",
+   "reason": "Clear dent with creasing in the left rear bumper corner, with scuffs and scratches around it.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "tail_lamp",
+   "part_name": "Tail lamp",
+   "side": "left",
+   "damage_type": "broken_lamp",
+   "severity": "moderate",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-2",
+   "reason": "Lower inner part of the left tail lamp looks cracked or has a missing section, with the lens broken near the bottom.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "suv_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02739,
+ "latency_s": 3.2,
+ "tokens_in": 9318,
+ "tokens_out": 875,
+ "runs_failed": 0
+}

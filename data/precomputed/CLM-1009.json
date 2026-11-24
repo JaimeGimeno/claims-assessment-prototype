@@ -1,0 +1,96 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-16",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Right side of the car, front door and rear door seen from the front, with the rear wheel arch and part of the sill",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 122.9,
+    "brightness": 80.9,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "White hatchback, right side, resembling a Seat Leon",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-16",
+   "reason": "Rear door has a visible dent with dark scrape marks across the lower half and rear edge, with paint scuffed.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "minor",
+   "damage_type_alt": "scratch",
+   "confidence": "low",
+   "id": "f1"
+  },
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-16",
+   "reason": "Scuff marks along the lower rear edge of the front door near the door gap.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "minor",
+   "damage_type_alt": "dent",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-16",
+   "reason": "Scrapes and scuffs along the sill beneath the doors, with the trim strip marked.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02845,
+ "latency_s": 4.3,
+ "tokens_in": 9320,
+ "tokens_out": 981,
+ "runs_failed": 0
+}

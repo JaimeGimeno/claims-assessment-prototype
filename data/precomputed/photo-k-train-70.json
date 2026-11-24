@@ -1,0 +1,93 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-70",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left three-quarter view of a silver sedan at the roadside",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 673.5,
+    "brightness": 115.9,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver midsize sedan (Toyota badge on wheel), four-door",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-70",
+   "reason": "Left end of the front bumper cover is pushed in, scraped and torn, with debris hanging at the lower corner.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "crack",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "left",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-70",
+   "reason": "Left headlamp housing is broken open with the internals exposed and the amber corner lens hanging loose.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-70",
+   "reason": "Front edge of the left fender by the headlamp is displaced, with a gap and a dark scrape at the bumper junction.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03017,
+ "latency_s": 4.6,
+ "tokens_in": 9258,
+ "tokens_out": 1165,
+ "runs_failed": 0
+}

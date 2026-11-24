@@ -1,0 +1,143 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-55",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "left side of a grey sedan, full car visible",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 735.6,
+    "brightness": 127.3,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Grey Honda Civic-type sedan, left side view",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-55",
+   "reason": "Front door is heavily creased and crumpled with buckled panel and broken paint, and the door gap at the rear edge is distorted.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-55",
+   "reason": "Rear door is deeply creased and pushed in with folds across the panel and a distorted shut line at the front edge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-55",
+   "reason": "Rear edge of the front fender is deformed and creased where it meets the front door.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-55",
+   "reason": "Rear quarter panel is buckled and wrinkled above the rear wheel, extending toward the tail lamp.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "moderate",
+   "confidence": "low",
+   "id": "f4"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-55",
+   "reason": "Sill under the doors looks pushed in and deformed beneath the door damage.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f5"
+  },
+  {
+   "part": "side_window",
+   "part_name": "Side window",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-55",
+   "reason": "Front door glass appears to have cracks or distortion, but the dark tint and reflections make this uncertain.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "moderate",
+   "damage_type_alt": "shattered_glass",
+   "confidence": "low",
+   "id": "f6"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "Heavy side impact with both doors crushed, door shut lines distorted and the sill and rear quarter deformed, suggesting possible damage to the B-pillar and the sill structure.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03524,
+ "latency_s": 6.3,
+ "tokens_in": 9258,
+ "tokens_out": 1672,
+ "runs_failed": 0
+}

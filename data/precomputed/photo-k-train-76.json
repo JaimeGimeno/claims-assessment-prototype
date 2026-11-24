@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-76",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front corner, left side, close-up of front bumper, fender and headlamp",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 171.0,
+    "brightness": 123.8,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Champagne/beige sedan, front left corner",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-76",
+   "reason": "Scuffed and scraped paint with black transfer marks across the left front bumper corner, no visible deformation.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02509,
+ "latency_s": 3.5,
+ "tokens_in": 9258,
+ "tokens_out": 657,
+ "runs_failed": 0
+}

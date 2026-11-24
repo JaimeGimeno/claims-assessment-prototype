@@ -1,0 +1,108 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-18",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "right side of a white hatchback, rear door and front door area",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 218.5,
+    "brightness": 92.9,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "white 5-door small hatchback, right side",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-18",
+   "reason": "Rear door has a deep, creased dent through the middle with paint scraped along the lower edge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-18",
+   "reason": "Rear edge of the front door is pushed in with creases and scraped paint along the lower half.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-18",
+   "reason": "Panel ahead of the rear wheel is buckled where the impact crosses it, with scrapes at the lower edge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-18",
+   "reason": "Sill under the doors looks pushed in and scraped along the impact area.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "A heavy side impact at the door and sill area with deep creasing may have affected the B-pillar, sill or door structure.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03047,
+ "latency_s": 4.7,
+ "tokens_in": 9258,
+ "tokens_out": 1195,
+ "runs_failed": 0
+}

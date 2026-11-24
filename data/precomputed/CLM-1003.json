@@ -1,0 +1,220 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-10",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front, slightly from the right",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 624.1,
+    "brightness": 124.2,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-11",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left three-quarter",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 732.8,
+    "brightness": 118.3,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-12",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left side",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 221.5,
+    "brightness": 107.9,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-13",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "left side, front door",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 256.7,
+    "brightness": 96.5,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-14",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "left side, front and rear doors",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 208.2,
+    "brightness": 99.3,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-15",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear left three-quarter",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 288.7,
+    "brightness": 114.2,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Blue Toyota Auris hatchback, Toyota badge visible",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "own-14",
+   "reason": "Distorted reflection and a crease-like dent at the rear edge of the front door by the door gap, with paint marks.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f1"
+  },
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "own-14",
+   "reason": "The dent continues across the gap onto the front edge of the rear door, with warped reflections.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "own-10",
+   "reason": "Scuffs and scratches on the left end of the bumper cover near the corner.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f3"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "low",
+   "photo_id": "own-15",
+   "reason": "Light scratch marks around the fuel flap area on the rear left panel, possibly surface marks.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  },
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "minor",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "own-10",
+   "reason": "A small distortion on the hood's front edge above the grille, possibly a slight dent.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f5"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "own-10",
+   "reason": "Scuff marks and scratches on the right front corner of the bumper.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f6"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.08618,
+ "latency_s": 9.9,
+ "tokens_in": 34916,
+ "tokens_out": 1634,
+ "runs_failed": 0
+}

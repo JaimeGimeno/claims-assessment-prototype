@@ -1,0 +1,77 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-61",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Rear of a dark red Ford hatchback, close view of the tailgate and rear bumper",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 92.4,
+    "brightness": 95.6,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark red Ford hatchback/compact MPV (rear view, Ford badge, 'MONDEO' lettering)",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-61",
+   "reason": "The rear bumper cover is pushed in and torn or creased on the left-center, with a jagged upper edge and scuffed paint.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "crack",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "trunk_lid",
+   "part_name": "Trunk lid or liftgate",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-61",
+   "reason": "The lower tailgate is deformed and creased on the left-center above the bumper, with scratches in the paint.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The bumper is deeply pushed in and the lower tailgate is deformed, so the rear crossmember or the panel behind the bumper may be affected.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02847,
+ "latency_s": 4.4,
+ "tokens_in": 9258,
+ "tokens_out": 995,
+ "runs_failed": 0
+}

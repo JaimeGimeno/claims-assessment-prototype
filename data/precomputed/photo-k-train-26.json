@@ -1,0 +1,125 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-26",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front, slightly from the left",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 89.5,
+    "brightness": 125.9,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark blue/black BMW 3 Series sedan, front view",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-26",
+   "reason": "Hood is badly creased and buckled across its width, with paint torn away near the badge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "center",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-26",
+   "reason": "Bumper cover is torn and broken, with the right side hanging in shreds and the lower area scraped.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "grille",
+   "part_name": "Grille",
+   "side": "center",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-26",
+   "reason": "Grille is crushed and broken, exposing the engine bay.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "crack",
+   "confidence": "high",
+   "id": "f3"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-26",
+   "reason": "Right front fender area is crumpled and torn near the hood edge and wheel arch.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f4"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "right",
+   "damage_type": "missing_part",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-26",
+   "reason": "Right headlamp is not visible; the unit is gone or destroyed and the opening is exposed.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f5"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "A heavy frontal impact has crushed the hood and front end, exposing the radiator support and engine bay, so the front structure is likely damaged.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03402,
+ "latency_s": 5.8,
+ "tokens_in": 9258,
+ "tokens_out": 1550,
+ "runs_failed": 0
+}

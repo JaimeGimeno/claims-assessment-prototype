@@ -1,0 +1,46 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-16",
+   "usable": false,
+   "issue": "too_far",
+   "issue_text": "taken from too far",
+   "runs_disagree": false,
+   "view": "Front of the car, parked in a garage bay, taken from a distance",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 576.8,
+    "brightness": 118.4,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Grey/taupe BMW 3 Series coupe, front view, parked in an underground garage",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "cannot_tell",
+  "reason": ""
+ },
+ "findings": [],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [
+  "A close photo of the front bumper and grille from about one metre, showing the area behind the black box if possible",
+  "Close photos of the left and right front corners, including the headlamps and the lower edge of the bumper"
+ ],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02923,
+ "latency_s": 3.8,
+ "tokens_in": 11284,
+ "tokens_out": 667,
+ "runs_failed": 0
+}

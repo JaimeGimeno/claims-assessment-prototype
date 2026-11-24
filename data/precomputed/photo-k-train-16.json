@@ -1,0 +1,92 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-16",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Side view of a white hatchback or sedan showing the front door and rear door, front wheel, and fender in a dim garage",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 122.9,
+    "brightness": 80.9,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "White hatchback/compact car, four doors",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-16",
+   "reason": "Front door has a visible dent with scuffs and scratches in the lower rear half, extending toward the door edge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-16",
+   "reason": "Scuffs and scratch marks on the front edge and lower area of the rear door next to the shut line.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-16",
+   "reason": "Scrapes and scuffing along the sill trim below the doors.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02939,
+ "latency_s": 4.8,
+ "tokens_in": 9258,
+ "tokens_out": 1087,
+ "runs_failed": 0
+}

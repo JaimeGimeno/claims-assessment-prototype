@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-1",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "left side profile of a black sedan in a parking garage",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 585.3,
+    "brightness": 128.9,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Black Tesla Model 3 style sedan, left side view",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "low",
+   "photo_id": "own-1",
+   "reason": "Scuff-like marks appear on the left rear corner of the bumper near the wheel arch, but the angle and dirt make it hard to confirm.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02893,
+ "latency_s": 3.3,
+ "tokens_in": 11224,
+ "tokens_out": 649,
+ "runs_failed": 0
+}

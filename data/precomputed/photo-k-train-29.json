@@ -1,0 +1,111 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-29",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left three-quarter, hood, headlamp and bumper",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 20.7,
+    "brightness": 93.5,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "silver compact sedan, Chevrolet-style front end",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-29",
+   "reason": "Hood is buckled and creased near the front left corner, with the panel pushed up and out of line.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-29",
+   "reason": "Bumper cover shows scuffs, marks and a distorted section near the left corner and the lower mounting, so it may be cracked or loose.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "minor",
+   "damage_type_alt": "scratch",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "grille",
+   "part_name": "Grille",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-29",
+   "reason": "Grille bar looks pushed or displaced at the left edge of the frame, but only part of it is visible.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "crack",
+   "confidence": "low",
+   "id": "f3"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "moderate",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-29",
+   "reason": "Lens interior shows possible broken or displaced internal pieces at the lower inner area, but reflections make this uncertain.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The hood is creased and lifted at the front corner and the front end is distorted, which suggests a significant impact that could reach the radiator support or frame behind it.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03176,
+ "latency_s": 5.1,
+ "tokens_in": 9258,
+ "tokens_out": 1324,
+ "runs_failed": 0
+}

@@ -1,0 +1,92 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-33",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left corner, three-quarter view",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 739.9,
+    "brightness": 110.2,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver/champagne Toyota Highlander Hybrid style SUV",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-33",
+   "reason": "Front left fender is creased and buckled near the hood edge and headlamp, with torn paint along the crease.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-33",
+   "reason": "Left end of the bumper cover is pushed in, torn and scraped around the fog lamp opening, with the corner pulled away from the fender.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-33",
+   "reason": "Hood edge by the left headlamp looks pushed in and distorted where the fender crease runs into it.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The impact crushed the front left corner and the fender and bumper no longer line up, so the headlamp mounting area, the bumper support and the wheel area behind should be checked.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "suv_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03013,
+ "latency_s": 5.0,
+ "tokens_in": 9258,
+ "tokens_out": 1161,
+ "runs_failed": 0
+}

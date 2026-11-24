@@ -1,0 +1,108 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-54",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front-left three-quarter view of a white SUV with a roof sensor pod, showing the left side doors and rear",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 751.5,
+    "brightness": 88.4,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "White Lexus-style luxury SUV with roof-mounted sensor pod and Google decals",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-54",
+   "reason": "Left front door is deeply crushed and creased with torn, scraped paint along its full length.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-54",
+   "reason": "Left rear door is heavily buckled and creased with scraped paint.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-54",
+   "reason": "Sill under the left doors is bent and torn, with the lower edge pushed inward.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-54",
+   "reason": "Rear left body panel behind the rear door shows deformation and crumpling near the door edge.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "Heavy side impact has crushed both left doors and the sill, so the B-pillar, sill and floor structure may be affected.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "suv_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03237,
+ "latency_s": 6.2,
+ "tokens_in": 9258,
+ "tokens_out": 1385,
+ "runs_failed": 0
+}

@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-4",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front of the car, straight on, in a parking garage",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 449.0,
+    "brightness": 110.7,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark grey Tesla (Model 3 or Y type) sedan/crossover, front view",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "minor",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "own-4",
+   "reason": "The lower edge of the bumper near the plate looks slightly uneven or pushed in, but dirt and lighting make it hard to be sure.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02933,
+ "latency_s": 3.2,
+ "tokens_in": 11224,
+ "tokens_out": 689,
+ "runs_failed": 0
+}

@@ -1,0 +1,109 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-val-32",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear of car, straight on, slightly from the left",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 477.3,
+    "brightness": 147.8,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark blue small hatchback, rear view, dual exhaust tips",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "right",
+   "damage_type": "missing_part",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-32",
+   "reason": "The right side of the bumper cover is torn open and partly missing, exposing the reinforcement and mounting area, with scraping and cracks across the cover.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "crack",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "trunk_lid",
+   "part_name": "Trunk lid or liftgate",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-32",
+   "reason": "The tailgate is creased and buckled on the right side above the tail lamp, with the lower edge pushed in and paint broken.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "tail_lamp",
+   "part_name": "Tail lamp",
+   "side": "right",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-val-32",
+   "reason": "The right tail lamp is cracked and displaced, and the lens looks broken and misaligned against the deformed tailgate.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f3"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "low",
+   "photo_id": "k-val-32",
+   "reason": "The right rear corner beside the bumper appears deformed, but the angle makes it hard to judge the panel itself.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The impact is heavy, the bumper is torn open and the tailgate is buckled, so the rear panel and bumper reinforcement behind the bumper may be deformed.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03242,
+ "latency_s": 6.5,
+ "tokens_in": 9258,
+ "tokens_out": 1390,
+ "runs_failed": 0
+}

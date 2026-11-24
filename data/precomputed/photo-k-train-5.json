@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-5",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "close-up of front corner of silver car, bumper and wheel arch area",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 63.5,
+    "brightness": 97.1,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver hatchback or small car, front corner close-up",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-5",
+   "reason": "Clear dent on the bumper corner with black transfer marks and scraped paint across the dented area and below it.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02539,
+ "latency_s": 4.3,
+ "tokens_in": 9258,
+ "tokens_out": 687,
+ "runs_failed": 0
+}

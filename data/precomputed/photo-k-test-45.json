@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-test-45",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "close-up of front corner (bumper, headlamp and wheel) of a silver car",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 117.5,
+    "brightness": 98.9,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver small/compact sedan or hatchback, front corner view",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-test-45",
+   "reason": "The bumper corner is pushed in with a wavy deformation and a black rub transfer mark, with scuffs and scratches along the corner and side.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02599,
+ "latency_s": 3.5,
+ "tokens_in": 9258,
+ "tokens_out": 747,
+ "runs_failed": 0
+}

@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-val-62",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear left side of a dark green hatchback showing the rear door and quarter panel",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 116.1,
+    "brightness": 56.7,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "dark green small hatchback, rear left side",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-62",
+   "reason": "Multiple horizontal scrapes through the paint on the lower rear half of the left rear door, with no visible dent.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-62",
+   "reason": "Horizontal scratches through the paint on the left quarter panel just above the rear wheel arch.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02668,
+ "latency_s": 3.7,
+ "tokens_in": 9258,
+ "tokens_out": 816,
+ "runs_failed": 0
+}

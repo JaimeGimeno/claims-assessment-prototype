@@ -1,0 +1,108 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-val-32",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear view of the car, showing the tailgate and rear bumper",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 477.3,
+    "brightness": 147.8,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark blue hatchback, Audi A3 style, seen from the rear",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "right",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-32",
+   "reason": "Bumper cover is torn open and broken at the right side, exposing the bumper beam and mounting area, with scrapes and creasing toward the centre.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "trunk_lid",
+   "part_name": "Trunk lid or liftgate",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-32",
+   "reason": "Tailgate is creased and buckled on the right side above the plate, with paint cracked along the fold.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "tail_lamp",
+   "part_name": "Tail lamp",
+   "side": "right",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-val-32",
+   "reason": "Right tail lamp is cracked and displaced, with its lens broken and misaligned against the buckled tailgate.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f3"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "low",
+   "photo_id": "k-val-32",
+   "reason": "The right rear corner beside the lamp looks deformed and the panel gap is distorted, but the angle limits the view.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "Tailgate is buckled and the bumper is torn open with the beam area exposed on the right, so the rear panel and crossmember behind the bumper may be deformed.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03226,
+ "latency_s": 6.4,
+ "tokens_in": 9306,
+ "tokens_out": 1364,
+ "runs_failed": 0
+}

@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-20",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left corner, three-quarter view",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 233.4,
+    "brightness": 106.3,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Grey VW Golf hatchback (VW badge on wheel)",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-20",
+   "reason": "Front left fender has a sharp crease and crumpled fold at the front of the wheel arch with paint scraped off.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-20",
+   "reason": "Left bumper corner has scuffs and paint scraping along the lower and side areas.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02697,
+ "latency_s": 4.0,
+ "tokens_in": 9304,
+ "tokens_out": 837,
+ "runs_failed": 0
+}

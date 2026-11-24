@@ -1,0 +1,109 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-val-42",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left three-quarter",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 217.4,
+    "brightness": 113.4,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "White small hatchback (Citro\u00ebn C4-style), five-door",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-42",
+   "reason": "Left front fender is heavily crumpled and creased behind the wheel arch, with torn edges and scraped paint.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-42",
+   "reason": "Left front door has a pushed-in dent at the front edge and scrapes along its panel, with a gap opened against the fender.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "missing_part",
+   "severity": "moderate",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-val-42",
+   "reason": "Left front bumper corner is scuffed and cracked, and the fog lamp area is open with the trim missing.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "broken_lamp",
+   "confidence": "medium",
+   "id": "f3"
+  },
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-val-42",
+   "reason": "Hood surface looks slightly wavy near the left front corner and rear edge, and it may be deformed.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The heavy crumpling of the left front fender and the gap between the fender and the door near the A-pillar and hinge area suggest the impact may have reached the structure behind the outer panels.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03357,
+ "latency_s": 5.3,
+ "tokens_in": 9258,
+ "tokens_out": 1505,
+ "runs_failed": 0
+}

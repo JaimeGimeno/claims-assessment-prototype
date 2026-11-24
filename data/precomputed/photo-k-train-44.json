@@ -1,0 +1,92 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-44",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear left three-quarter view",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 417.7,
+    "brightness": 103.4,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark grey Ford Focus hatchback, 5-door",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-44",
+   "reason": "The rear left corner of the bumper has scrapes and scuffs and is pushed in near the tail lamp.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "tail_lamp",
+   "part_name": "Tail lamp",
+   "side": "left",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-44",
+   "reason": "The left tail lamp lower section is crushed and broken, and the lens is deformed.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-44",
+   "reason": "The rear edge of the left quarter panel next to the tail lamp is creased and crumpled.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The quarter panel is crumpled at the rear corner next to the tail lamp, which suggests the impact may have reached the rear body structure behind the bumper.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02961,
+ "latency_s": 4.4,
+ "tokens_in": 9258,
+ "tokens_out": 1109,
+ "runs_failed": 0
+}

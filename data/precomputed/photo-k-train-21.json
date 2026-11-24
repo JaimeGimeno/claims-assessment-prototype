@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-21",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear corner of a silver car showing the rear wheel, fuel flap, rear quarter and bumper end, with the tail lamp at the edge",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 78.7,
+    "brightness": 81.0,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver sedan, rear side view with fuel flap and alloy wheel",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-21",
+   "reason": "Large deep dent with sharp creases in the rear quarter panel behind the wheel arch, extending toward the rear corner; paint appears intact but the metal is creased.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f1"
+  },
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-21",
+   "reason": "The deformation runs down to the rear corner where the bumper meets the quarter panel, and the bumper end looks pushed in, but the photo does not clearly separate the bumper from the quarter.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "A deep creased dent reaching the rear corner and lower edge suggests an impact that may have affected the inner quarter panel or rear body structure behind the bumper.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02911,
+ "latency_s": 4.5,
+ "tokens_in": 9258,
+ "tokens_out": 1059,
+ "runs_failed": 0
+}

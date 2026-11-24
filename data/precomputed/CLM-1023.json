@@ -1,0 +1,92 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-18",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Right side of the car, front three-quarter view, showing both doors and the sill",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 218.5,
+    "brightness": 92.9,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "White Seat Ibiza hatchback, right side visible",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-18",
+   "reason": "Deep creased dent across the door with scraped paint and a distorted rear edge, consistent with a side impact.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-18",
+   "reason": "Large crushed and creased area around the handle with torn paint and deformed lower edge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-18",
+   "reason": "Sill below the doors looks pushed in and scraped where the impact reaches the bottom of the doors.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "Heavy side impact with deep creasing of both doors down to the sill; B-pillar and sill may be deformed and the door gaps look uneven.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.0303,
+ "latency_s": 5.2,
+ "tokens_in": 9304,
+ "tokens_out": 1170,
+ "runs_failed": 0
+}

@@ -1,0 +1,61 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-9",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left three-quarter view in a parking garage",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 201.2,
+    "brightness": 116.2,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "dark teal/blue compact hatchback, front left side",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "own-9",
+   "reason": "The left fender shows uneven, rippled reflections and a visible dent behind the wheel arch near the side marker, with no clear paint breakage.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "minor",
+   "confidence": "low",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.0314,
+ "latency_s": 3.9,
+ "tokens_in": 11224,
+ "tokens_out": 896,
+ "runs_failed": 0
+}

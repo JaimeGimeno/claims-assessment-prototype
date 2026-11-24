@@ -1,0 +1,125 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-58",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear three-quarter view of the white hatchback, showing the rear corner with heavy impact damage",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 206.1,
+    "brightness": 110.4,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "white hatchback (Seat-style, small car), rear corner view",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "unknown",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-58",
+   "reason": "Rear wing is heavily creased and buckled around the fuel flap, with torn metal above the wheel arch.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "unknown",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-58",
+   "reason": "Bumper cover is split and torn, with a gap at the lower edge and detached from the body near the lamp.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "tail_lamp",
+   "part_name": "Tail lamp",
+   "side": "unknown",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-58",
+   "reason": "Lamp unit is displaced and misaligned with surrounding crushed panels.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  },
+  {
+   "part": "trunk_lid",
+   "part_name": "Trunk lid or liftgate",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-58",
+   "reason": "Tailgate corner is crushed and folded, with the edge pushed in and the glass area exposed.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f4"
+  },
+  {
+   "part": "back_glass",
+   "part_name": "Back glass",
+   "side": "unknown",
+   "damage_type": "shattered_glass",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-58",
+   "reason": "The rear glass opening appears empty or broken at the top of the crushed tailgate, but it is hard to see.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "missing_part",
+   "confidence": "low",
+   "id": "f5"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "A heavy rear corner impact has buckled the quarter panel and wheel arch area, and the tailgate and bumper are crushed and displaced, so rear body structure damage is likely.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03439,
+ "latency_s": 5.5,
+ "tokens_in": 9258,
+ "tokens_out": 1587,
+ "runs_failed": 0
+}

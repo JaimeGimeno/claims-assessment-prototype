@@ -1,0 +1,1625 @@
+{
+ "k-train-4": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 4,
+    "also_ok_severity": [
+     "severe"
+    ]
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-5": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 4
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-7": {
+  "findings": [
+   {
+    "part": "rear_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "front_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "rocker_panel",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 3
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": true,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-10": {
+  "findings": [
+   {
+    "part": "rear_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "front_door",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 3,
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   },
+   {
+    "part": "rocker_panel",
+    "side": "left",
+    "damage_type": "crack",
+    "severity": "moderate",
+    "votes": 4,
+    "also_ok_severity": [
+     "severe"
+    ],
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   },
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": true,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-13": {
+  "findings": [
+   {
+    "part": "trunk_lid",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 4,
+    "also_ok_severity": [
+     "severe"
+    ]
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-14": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 4
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 3
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": true,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-15": {
+  "findings": [
+   {
+    "part": "trunk_lid",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 4,
+    "also_ok_severity": [
+     "severe"
+    ]
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-19": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "votes": 4
+   },
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-21": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "left",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "votes": 3,
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   },
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 3
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": true,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-23": {
+  "findings": [
+   {
+    "part": "headlamp",
+    "side": "left",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   },
+   {
+    "part": "hood",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 2
+   },
+   {
+    "part": "grille",
+    "side": "left",
+    "damage_type": "missing_part",
+    "severity": "moderate",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-26": {
+  "findings": [
+   {
+    "part": "hood",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   },
+   {
+    "part": "grille",
+    "side": "",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "crack"
+    ]
+   },
+   {
+    "part": "headlamp",
+    "side": "left",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "missing_part"
+    ]
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 3
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-29": {
+  "findings": [
+   {
+    "part": "hood",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 4
+   },
+   {
+    "part": "fender",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-30": {
+  "findings": [
+   {
+    "part": "trunk_lid",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "back_glass",
+    "side": "",
+    "damage_type": "shattered_glass",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "missing_part"
+    ]
+   },
+   {
+    "part": "rear_bumper",
+    "side": "",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   },
+   {
+    "part": "tail_lamp",
+    "side": "right",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 3,
+    "also_ok_severity": [
+     "severe"
+    ]
+   },
+   {
+    "part": "rear_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-31": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "hood",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "headlamp",
+    "side": "left",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 4,
+    "also_ok_severity": [
+     "severe"
+    ]
+   },
+   {
+    "part": "grille",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "minor",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-33": {
+  "findings": [
+   {
+    "part": "fender",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": true,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-34": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "crack"
+    ]
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "minor",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": true,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-37": {
+  "findings": [
+   {
+    "part": "trunk_lid",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-38": {
+  "findings": [
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "rear_bumper",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": true,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-39": {
+  "findings": [
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "rear_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "minor",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "rocker_panel",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 2,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-40": {
+  "findings": [
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "votes": 2
+   },
+   {
+    "part": "rear_door",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "votes": 2
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 2,
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "also_ok_damage_type": [
+     "scratch"
+    ]
+   },
+   {
+    "part": "front_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 2
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-41": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "missing_part"
+    ]
+   },
+   {
+    "part": "hood",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "headlamp",
+    "side": "left",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "grille",
+    "side": "",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "votes": 1,
+    "optional": true
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 4,
+    "also_ok_severity": [
+     "severe"
+    ]
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-43": {
+  "findings": [
+   {
+    "part": "headlamp",
+    "side": "left",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   },
+   {
+    "part": "hood",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 2
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-46": {
+  "findings": [
+   {
+    "part": "hood",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "windshield",
+    "side": "",
+    "damage_type": "shattered_glass",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "headlamp",
+    "side": "left",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "votes": 3
+   },
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "votes": 4,
+    "also_ok_severity": [
+     "minor"
+    ],
+    "also_ok_damage_type": [
+     "crack",
+     "missing_part"
+    ]
+   },
+   {
+    "part": "grille",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 2,
+    "also_ok_damage_type": [
+     "missing_part"
+    ]
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-47": {
+  "findings": [
+   {
+    "part": "hood",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "grille",
+    "side": "",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 3,
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   },
+   {
+    "part": "headlamp",
+    "side": "left",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "votes": 2,
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "also_ok_damage_type": [
+     "broken_lamp"
+    ]
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-48": {
+  "findings": [
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "crack"
+    ]
+   },
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "rear_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 3,
+    "also_ok_severity": [
+     "severe"
+    ]
+   },
+   {
+    "part": "hood",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "minor",
+    "votes": 1,
+    "optional": true
+   },
+   {
+    "part": "mirror",
+    "side": "left",
+    "damage_type": "missing_part",
+    "severity": "moderate",
+    "votes": 1,
+    "optional": true
+   },
+   {
+    "part": "rocker_panel",
+    "side": "left",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "votes": 2,
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-50": {
+  "findings": [
+   {
+    "part": "hood",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "also_ok_damage_type": [
+     "missing_part",
+     "scratch"
+    ]
+   },
+   {
+    "part": "grille",
+    "side": "",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "votes": 3,
+    "also_ok_damage_type": [
+     "crack"
+    ]
+   },
+   {
+    "part": "headlamp",
+    "side": "right",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "shattered_glass"
+    ]
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-52": {
+  "findings": [
+   {
+    "part": "hood",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "grille",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 2
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-53": {
+  "findings": [
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "rear_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "side_window",
+    "side": "right",
+    "damage_type": "shattered_glass",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "rocker_panel",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "roof",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "minor",
+    "votes": 3,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "wheel",
+    "side": "right",
+    "damage_type": "flat_tyre",
+    "severity": "severe",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-56": {
+  "findings": [
+   {
+    "part": "hood",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": true,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-57": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "left",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": true,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-58": {
+  "findings": [
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "trunk_lid",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "rear_bumper",
+    "side": "right",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "tail_lamp",
+    "side": "right",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "votes": 3,
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "also_ok_damage_type": [
+     "broken_lamp"
+    ]
+   },
+   {
+    "part": "back_glass",
+    "side": "",
+    "damage_type": "shattered_glass",
+    "severity": "severe",
+    "votes": 2
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-59": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "votes": 4
+   },
+   {
+    "part": "fender",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 4,
+    "also_ok_severity": [
+     "severe"
+    ]
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-61": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "crack"
+    ]
+   },
+   {
+    "part": "trunk_lid",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-69": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 4,
+    "also_ok_severity": [
+     "severe"
+    ]
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": true,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-70": {
+  "findings": [
+   {
+    "part": "headlamp",
+    "side": "right",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "crack",
+    "severity": "moderate",
+    "votes": 4,
+    "also_ok_severity": [
+     "severe"
+    ],
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   },
+   {
+    "part": "fender",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "minor",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": true,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-71": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "fender",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-75": {
+  "findings": [
+   {
+    "part": "fender",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 4
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": true,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-76": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "votes": 4
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-77": {
+  "findings": [
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "votes": 4
+   },
+   {
+    "part": "rear_door",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 3
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-train-80": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 1,
+    "optional": true
+   },
+   {
+    "part": "rear_door",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 1,
+    "optional": true
+   },
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-val-8": {
+  "findings": [
+   {
+    "part": "fender",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "headlamp",
+    "side": "right",
+    "damage_type": "missing_part",
+    "severity": "minor",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": true,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-val-9": {
+  "findings": [
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 2
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": true,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-val-22": {
+  "findings": [
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "hood",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 3,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 3,
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "headlamp",
+    "side": "right",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "votes": 2
+   },
+   {
+    "part": "side_window",
+    "side": "right",
+    "damage_type": "shattered_glass",
+    "severity": "severe",
+    "votes": 1,
+    "optional": true
+   },
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 1,
+    "optional": true
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-val-24": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "right",
+    "damage_type": "crack",
+    "severity": "severe",
+    "votes": 4,
+    "also_ok_damage_type": [
+     "missing_part"
+    ]
+   },
+   {
+    "part": "trunk_lid",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 3,
+    "also_ok_severity": [
+     "minor",
+     "severe"
+    ]
+   },
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 2,
+    "also_ok_damage_type": [
+     "dent"
+    ]
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": true,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-val-42": {
+  "findings": [
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "votes": 3,
+    "also_ok_severity": [
+     "minor"
+    ],
+    "also_ok_damage_type": [
+     "scratch"
+    ]
+   },
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 4,
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "also_ok_damage_type": [
+     "missing_part"
+    ]
+   },
+   {
+    "part": "mirror",
+    "side": "left",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "votes": 3
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": true,
+  "ambiguous": true,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ },
+ "k-val-74": {
+  "findings": [
+   {
+    "part": "fender",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "votes": 4
+   },
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "votes": 2
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI consensus (Claude Opus 5.5, Gemini 3.1 Pro (preview), Gemini 3.5 Flash, OpenAI GPT-5), not checked by a person",
+  "labellers": 4
+ }
+}

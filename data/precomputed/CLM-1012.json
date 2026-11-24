@@ -1,0 +1,93 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-63",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear three-quarter view from the rear right, in a workshop, dim lighting",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 154.5,
+    "brightness": 41.5,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver Kia minivan/MPV with a Kia badge on the tailgate, seen from the rear",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-63",
+   "reason": "Left part of the rear bumper is crushed and pushed in with a sharp crease and torn or displaced sections, and the bumper is misaligned.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "trunk_lid",
+   "part_name": "Trunk lid or liftgate",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-63",
+   "reason": "The lower tailgate is buckled and creased on the left and centre, with the panel pushed in and distorted around the plate area.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  },
+  {
+   "part": "tail_lamp",
+   "part_name": "Tail lamp",
+   "side": "left",
+   "damage_type": "missing_part",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-63",
+   "reason": "The left tail lamp area at the edge is partly covered or taped and looks displaced, but it is hard to see in the dim photo.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "broken_lamp",
+   "confidence": "low",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The rear bumper and the lower tailgate are heavily crushed and buckled, which suggests the impact may have reached the rear panel and the structure behind the bumper.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.0324,
+ "latency_s": 5.8,
+ "tokens_in": 9308,
+ "tokens_out": 1378,
+ "runs_failed": 0
+}

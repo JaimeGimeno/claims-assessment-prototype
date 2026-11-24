@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-val-9",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front door and front fender area, seen from the front left side",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 127.8,
+    "brightness": 119.1,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Blue small hatchback or coupe, photographed from the front left",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-9",
+   "reason": "The door has a long diagonal crease with a deep dent, and the paint is scraped and scuffed along it.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "low",
+   "photo_id": "k-val-9",
+   "reason": "There are faint scuffs on the fender near the door gap and wheel arch. Reflections make them hard to judge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The door is creased deeply along its lower half, close to the sill, so the door frame and sill may be deformed.",
+ "structural_runs": "1 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02738,
+ "latency_s": 4.2,
+ "tokens_in": 9258,
+ "tokens_out": 886,
+ "runs_failed": 0
+}

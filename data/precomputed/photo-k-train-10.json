@@ -1,0 +1,94 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-10",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "side view of rear door and rear wheel area, night/flash lighting",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 194.2,
+    "brightness": 57.7,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "older silver sedan, looks like a Mercedes 190 style",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "unknown",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-10",
+   "reason": "Rear door has a deep dent with torn, creased metal, exposed bare metal and rust, and the lower panel is buckled.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "unknown",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-10",
+   "reason": "Sill trim is bent and its rear end is deformed and pulled away, with rust and paint loss near the rear wheel arch.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "moderate",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "unknown",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "low",
+   "photo_id": "k-train-10",
+   "reason": "Lower front edge of the rear wheel arch area is bent and shows rust, possibly from the same impact.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "minor",
+   "confidence": "low",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The sill is deformed at its rear end and the lower door is buckled, so the sill structure may be affected.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03114,
+ "latency_s": 5.4,
+ "tokens_in": 9258,
+ "tokens_out": 1262,
+ "runs_failed": 0
+}

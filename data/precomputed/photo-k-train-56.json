@@ -1,0 +1,109 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-56",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front three-quarter view from the right side showing the front end, hood and right side of the car",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 215.6,
+    "brightness": 97.3,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver Renault Captur compact SUV with black roof",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-56",
+   "reason": "The hood is badly buckled and creased across its whole width, with the rear edge pushed up toward the windshield.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-56",
+   "reason": "The right front fender is deformed at its upper front edge next to the hood and headlamp, and the panel line is distorted.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "right",
+   "damage_type": "crack",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-56",
+   "reason": "The right headlamp looks intact, but its upper mounting area is distorted by the hood and fender damage, so its fit and any cracks are unclear.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "missing_part",
+   "confidence": "low",
+   "id": "f3"
+  },
+  {
+   "part": "windshield",
+   "part_name": "Windshield",
+   "side": "center",
+   "damage_type": "crack",
+   "severity": "moderate",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-56",
+   "reason": "A triangular area at the left of the windshield looks broken or cracked, though reflections make it hard to be sure.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The hood is heavily buckled and the fender and hood lines are distorted, which points to a heavy frontal impact that may have affected the structure behind the bumper and the A-pillar area.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "suv_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03399,
+ "latency_s": 5.8,
+ "tokens_in": 9258,
+ "tokens_out": 1547,
+ "runs_failed": 0
+}

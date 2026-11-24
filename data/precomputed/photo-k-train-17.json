@@ -1,0 +1,92 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-17",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "left side of the car, front and rear doors with rear wheel, taken at night",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 232.2,
+    "brightness": 76.6,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver/white VW hatchback (VW badge on wheel), four-door",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-17",
+   "reason": "Large deep dent with creasing and torn, scraped paint in the lower half of the rear door, with a puncture-like tear near the door edge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-17",
+   "reason": "Lower part of the front door is dented and creased with paint scraped to white along the bottom.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-17",
+   "reason": "Sill under the doors looks scuffed and pushed in below the rear door damage.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The impact is concentrated low on both doors and reaches the sill, so the sill and door structure behind the outer skin may be deformed.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02972,
+ "latency_s": 4.9,
+ "tokens_in": 9258,
+ "tokens_out": 1120,
+ "runs_failed": 0
+}

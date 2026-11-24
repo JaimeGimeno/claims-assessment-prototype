@@ -1,0 +1,374 @@
+{
+ "note": "Sample reference data for the prototype. Labour rates are real published figures; part prices, labour hours, class multipliers, shops and vehicle values are sample data.",
+ "currency": "USD",
+ "parts": [
+  {
+   "id": "front_bumper",
+   "name": "Front bumper",
+   "paintable": true,
+   "replace_only": false,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": false
+  },
+  {
+   "id": "grille",
+   "name": "Grille",
+   "paintable": false,
+   "replace_only": true,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": false
+  },
+  {
+   "id": "hood",
+   "name": "Hood",
+   "paintable": true,
+   "replace_only": false,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": true
+  },
+  {
+   "id": "headlamp",
+   "name": "Headlamp",
+   "paintable": false,
+   "replace_only": true,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": false
+  },
+  {
+   "id": "fender",
+   "name": "Fender",
+   "paintable": true,
+   "replace_only": false,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": true
+  },
+  {
+   "id": "windshield",
+   "name": "Windshield",
+   "paintable": false,
+   "replace_only": true,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": false
+  },
+  {
+   "id": "front_door",
+   "name": "Front door",
+   "paintable": true,
+   "replace_only": false,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": true
+  },
+  {
+   "id": "rear_door",
+   "name": "Rear door",
+   "paintable": true,
+   "replace_only": false,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": true
+  },
+  {
+   "id": "mirror",
+   "name": "Mirror",
+   "paintable": false,
+   "replace_only": true,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": false
+  },
+  {
+   "id": "side_window",
+   "name": "Side window",
+   "paintable": false,
+   "replace_only": true,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": false
+  },
+  {
+   "id": "rocker_panel",
+   "name": "Rocker panel",
+   "paintable": true,
+   "replace_only": false,
+   "replace_labour": "structural",
+   "structural": true,
+   "metal": true
+  },
+  {
+   "id": "quarter_panel",
+   "name": "Quarter panel",
+   "paintable": true,
+   "replace_only": false,
+   "replace_labour": "structural",
+   "structural": true,
+   "metal": true
+  },
+  {
+   "id": "roof",
+   "name": "Roof",
+   "paintable": true,
+   "replace_only": false,
+   "replace_labour": "structural",
+   "structural": true,
+   "metal": true
+  },
+  {
+   "id": "trunk_lid",
+   "name": "Trunk lid or liftgate",
+   "paintable": true,
+   "replace_only": false,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": true
+  },
+  {
+   "id": "rear_bumper",
+   "name": "Rear bumper",
+   "paintable": true,
+   "replace_only": false,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": false
+  },
+  {
+   "id": "tail_lamp",
+   "name": "Tail lamp",
+   "paintable": false,
+   "replace_only": true,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": false
+  },
+  {
+   "id": "back_glass",
+   "name": "Back glass",
+   "paintable": false,
+   "replace_only": true,
+   "replace_labour": "body",
+   "structural": false,
+   "metal": false
+  },
+  {
+   "id": "wheel",
+   "name": "Wheel or tyre",
+   "paintable": false,
+   "replace_only": true,
+   "replace_labour": "mechanical",
+   "structural": false,
+   "metal": false
+  }
+ ],
+ "damage_types": [
+  {
+   "id": "scratch",
+   "name": "Scratch"
+  },
+  {
+   "id": "dent",
+   "name": "Dent"
+  },
+  {
+   "id": "crack",
+   "name": "Crack"
+  },
+  {
+   "id": "shattered_glass",
+   "name": "Shattered glass"
+  },
+  {
+   "id": "broken_lamp",
+   "name": "Broken lamp"
+  },
+  {
+   "id": "missing_part",
+   "name": "Missing or detached part"
+  },
+  {
+   "id": "flat_tyre",
+   "name": "Flat tyre"
+  }
+ ],
+ "severities": [
+  {
+   "id": "minor",
+   "name": "Minor",
+   "meaning": "Paint only or a small dent. Repaired without replacing the part."
+  },
+  {
+   "id": "moderate",
+   "name": "Moderate",
+   "meaning": "A clear dent or deep scratches. The panel is repaired and repainted."
+  },
+  {
+   "id": "severe",
+   "name": "Severe",
+   "meaning": "Creased, torn or broken. The part is normally replaced."
+  }
+ ],
+ "vehicle_classes": [
+  {
+   "id": "small_standard",
+   "name": "Small car, standard"
+  },
+  {
+   "id": "small_luxury",
+   "name": "Small car, luxury"
+  },
+  {
+   "id": "midsize_standard",
+   "name": "Mid-size car, standard"
+  },
+  {
+   "id": "midsize_luxury",
+   "name": "Mid-size car, luxury"
+  },
+  {
+   "id": "suv_standard",
+   "name": "SUV, standard"
+  },
+  {
+   "id": "suv_luxury",
+   "name": "SUV, luxury"
+  },
+  {
+   "id": "pickup_standard",
+   "name": "Pickup, standard"
+  },
+  {
+   "id": "pickup_luxury",
+   "name": "Pickup, luxury"
+  }
+ ],
+ "labour_rates": {
+  "body": 68.0,
+  "refinish": 68.0,
+  "structural": 93.0,
+  "mechanical": 127.0,
+  "paint_materials_per_refinish_hour": 50.0
+ },
+ "shops": [
+  {
+   "id": "shop-1",
+   "name": "Northside Collision Center",
+   "city": "Columbus, OH",
+   "structural": true
+  },
+  {
+   "id": "shop-2",
+   "name": "Riverbend Auto Body",
+   "city": "Columbus, OH",
+   "structural": false
+  },
+  {
+   "id": "shop-3",
+   "name": "Summit Paint & Body",
+   "city": "Dublin, OH",
+   "structural": false
+  },
+  {
+   "id": "shop-4",
+   "name": "Keystone Frame & Collision",
+   "city": "Westerville, OH",
+   "structural": true
+  }
+ ],
+ "vehicle_presets": [
+  {
+   "id": "preset-small",
+   "make": "Toyota",
+   "model": "Yaris",
+   "year": 2019,
+   "vehicle_class": "small_standard",
+   "value": 13500
+  },
+  {
+   "id": "preset-mid",
+   "make": "Honda",
+   "model": "Accord",
+   "year": 2020,
+   "vehicle_class": "midsize_standard",
+   "value": 21000
+  },
+  {
+   "id": "preset-mid-lux",
+   "make": "BMW",
+   "model": "3 Series",
+   "year": 2020,
+   "vehicle_class": "midsize_luxury",
+   "value": 29500
+  },
+  {
+   "id": "preset-suv",
+   "make": "Toyota",
+   "model": "RAV4",
+   "year": 2021,
+   "vehicle_class": "suv_standard",
+   "value": 26000
+  },
+  {
+   "id": "preset-suv-lux",
+   "make": "Audi",
+   "model": "Q5",
+   "year": 2021,
+   "vehicle_class": "suv_luxury",
+   "value": 36500
+  },
+  {
+   "id": "preset-pickup",
+   "make": "Ford",
+   "model": "F-150",
+   "year": 2019,
+   "vehicle_class": "pickup_standard",
+   "value": 31000
+  },
+  {
+   "id": "preset-old",
+   "make": "Ford",
+   "model": "Focus",
+   "year": 2008,
+   "vehicle_class": "small_standard",
+   "value": 3800
+  }
+ ],
+ "edit_reasons": [
+  {
+   "id": "wrong_part",
+   "name": "Wrong part"
+  },
+  {
+   "id": "wrong_damage_type",
+   "name": "Wrong damage type"
+  },
+  {
+   "id": "wrong_severity",
+   "name": "Wrong severity"
+  },
+  {
+   "id": "repair_vs_replace",
+   "name": "Repair vs replace"
+  },
+  {
+   "id": "missed_damage",
+   "name": "Missed damage"
+  },
+  {
+   "id": "not_damage",
+   "name": "Not damage (reflection, dirt, old damage)"
+  },
+  {
+   "id": "price_adjustment",
+   "name": "Price adjustment"
+  },
+  {
+   "id": "other",
+   "name": "Other"
+  }
+ ]
+}

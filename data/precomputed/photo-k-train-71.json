@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-71",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Close-up of front corner, bumper and headlamp area",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 245.8,
+    "brightness": 97.5,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark grey/black SUV or crossover, front left corner (older Toyota RAV4-style)",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-71",
+   "reason": "Bumper cover is torn and split beside the fog lamp with a deformed crumpled area above it, plus heavy scuffing and scratches across the corner.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "suv_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02637,
+ "latency_s": 3.6,
+ "tokens_in": 9258,
+ "tokens_out": 785,
+ "runs_failed": 0
+}

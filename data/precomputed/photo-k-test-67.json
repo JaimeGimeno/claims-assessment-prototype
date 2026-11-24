@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-test-67",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Side view of the dark blue car's right side, taken from the rear toward the front, showing the quarter panel, rear wheel arch, door and wheel",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 192.4,
+    "brightness": 117.7,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark navy blue small hatchback (Peugeot badge), parked on street",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-test-67",
+   "reason": "The rear side panel above the wheel arch has several deep scratches and a deformed, dented surface with scraped paint.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f1"
+  },
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-test-67",
+   "reason": "The door surface is wavy and dented with scuffing, and the lower part of the door is also marked.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02713,
+ "latency_s": 4.0,
+ "tokens_in": 9258,
+ "tokens_out": 861,
+ "runs_failed": 0
+}

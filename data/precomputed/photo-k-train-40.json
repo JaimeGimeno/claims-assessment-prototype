@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-40",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Close-up of the wheel arch and the adjoining door area on a green car",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 346.7,
+    "brightness": 108.5,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Green car, close-up of a wheel arch and door; body type not visible",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "unknown",
+   "damage_type": "scratch",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-40",
+   "reason": "Paint is scraped along the wheel arch edge with rust showing, and there are scrape marks on the adjacent body panel. The panel behind the door is probably the rear wing, but the photo doesn't show which wheel this is.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f1"
+  },
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "unknown",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-40",
+   "reason": "There are horizontal scrape marks with paint removed on the lower door panel, and the black side moulding is scuffed. It is probably a rear door, but that is not certain from the close-up.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02835,
+ "latency_s": 4.9,
+ "tokens_in": 9258,
+ "tokens_out": 983,
+ "runs_failed": 0
+}

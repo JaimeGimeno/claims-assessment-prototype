@@ -1,0 +1,141 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-25",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left three-quarter view of a silver BMW wagon",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 197.2,
+    "brightness": 120.7,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver BMW 3 Series estate/wagon with roof rails",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-25",
+   "reason": "Left front fender is crumpled and creased with torn, scraped paint and exposed rust-colored areas, pushed in toward the door.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-25",
+   "reason": "Bumper cover at the left front corner is torn, deformed and scraped, with the corner pushed in.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-25",
+   "reason": "Left front door is deeply buckled and creased near the front edge and across the panel.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f3"
+  },
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-25",
+   "reason": "Left rear door shows dents and creasing along the front portion, continuing from the front door impact.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f4"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-25",
+   "reason": "Left sill below the doors looks bent and deformed near the front wheel area.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f5"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "left",
+   "damage_type": "missing_part",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-25",
+   "reason": "Left headlamp appears shifted at its outer edge where the fender and bumper are pushed in, but the lens looks intact.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "broken_lamp",
+   "confidence": "low",
+   "id": "f6"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "Heavy side impact at the left front with a crushed fender, buckled front door and deformed sill, and the front wheel area is exposed, so the A-pillar, sill and suspension mounts may be damaged.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03673,
+ "latency_s": 6.4,
+ "tokens_in": 9258,
+ "tokens_out": 1821,
+ "runs_failed": 0
+}

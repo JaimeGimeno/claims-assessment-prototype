@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-73",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear left corner of a silver sedan, showing quarter panel, fuel door, tail lamp and rear bumper",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 685.8,
+    "brightness": 153.2,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver Honda Civic-style sedan, rear left corner",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-73",
+   "reason": "Large creased dent across the rear left quarter panel running through the fuel door area, with the rear edge pushed in at the bumper gap.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-73",
+   "reason": "Bumper cover is pushed out of position at the left corner, leaving a wide open gap with a ragged, broken edge next to the quarter panel.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The quarter panel is creased and pushed in at the rear edge, with a wide gap at the bumper and tail lamp, suggesting possible deformation of the rear body structure behind the panel.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02811,
+ "latency_s": 4.1,
+ "tokens_in": 9306,
+ "tokens_out": 949,
+ "runs_failed": 0
+}

@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-68",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Close-up of a front door, lower section, with the front wheel and fender behind it",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 398.7,
+    "brightness": 102.2,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark grey hatchback or sedan, front door and front wheel visible, in a workshop",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "unknown",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-68",
+   "reason": "The lower half of the door has a deep, creased dent with folds in the metal and what looks like broken paint along the bottom edge, consistent with a hit from a low block.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The impact is low on the door beside the sill, and the crease runs close to the rocker panel, so the sill and door frame should be checked for deformation.",
+ "structural_runs": "1 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02571,
+ "latency_s": 3.7,
+ "tokens_in": 9316,
+ "tokens_out": 707,
+ "runs_failed": 0
+}

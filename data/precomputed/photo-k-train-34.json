@@ -1,0 +1,92 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-34",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Front left three-quarter view of the front end, showing the bumper, headlamp, fender and wheel",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 235.3,
+    "brightness": 130.9,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver midsize sedan (Toyota badge on wheel, Camry-like)",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "missing_part",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-34",
+   "reason": "Bumper cover is torn and broken away on the left corner, with the lower section detached and lying on the ground, exposing the bumper support.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "left",
+   "damage_type": "missing_part",
+   "severity": "severe",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-34",
+   "reason": "The lamp lens looks intact, but it appears to have lost its lower mounting support and may be loose or misaligned.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-34",
+   "reason": "The front edge of the fender near the headlamp looks disturbed and the fender liner is displaced, but the outer panel is mostly intact.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The bumper cover has been torn off and the radiator support, the area behind the bumper and the front suspension area are exposed and appear deformed, which points to a heavy impact.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03057,
+ "latency_s": 5.4,
+ "tokens_in": 9258,
+ "tokens_out": 1205,
+ "runs_failed": 0
+}

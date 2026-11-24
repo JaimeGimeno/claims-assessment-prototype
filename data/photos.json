@@ -1,0 +1,598 @@
+[
+ {
+  "id": "k-train-2",
+  "file": "kaggle/train-2.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-4",
+  "file": "kaggle/train-4.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-5",
+  "file": "kaggle/train-5.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-6",
+  "file": "kaggle/train-6.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-7",
+  "file": "kaggle/train-7.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-10",
+  "file": "kaggle/train-10.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-13",
+  "file": "kaggle/train-13.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-14",
+  "file": "kaggle/train-14.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-15",
+  "file": "kaggle/train-15.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-16",
+  "file": "kaggle/train-16.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-17",
+  "file": "kaggle/train-17.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-18",
+  "file": "kaggle/train-18.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-19",
+  "file": "kaggle/train-19.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-20",
+  "file": "kaggle/train-20.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-21",
+  "file": "kaggle/train-21.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-23",
+  "file": "kaggle/train-23.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-25",
+  "file": "kaggle/train-25.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-26",
+  "file": "kaggle/train-26.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-27",
+  "file": "kaggle/train-27.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-29",
+  "file": "kaggle/train-29.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-30",
+  "file": "kaggle/train-30.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-31",
+  "file": "kaggle/train-31.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-33",
+  "file": "kaggle/train-33.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-34",
+  "file": "kaggle/train-34.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-36",
+  "file": "kaggle/train-36.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-37",
+  "file": "kaggle/train-37.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-38",
+  "file": "kaggle/train-38.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-39",
+  "file": "kaggle/train-39.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-40",
+  "file": "kaggle/train-40.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-41",
+  "file": "kaggle/train-41.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-43",
+  "file": "kaggle/train-43.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-44",
+  "file": "kaggle/train-44.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-46",
+  "file": "kaggle/train-46.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-47",
+  "file": "kaggle/train-47.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-48",
+  "file": "kaggle/train-48.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-49",
+  "file": "kaggle/train-49.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-50",
+  "file": "kaggle/train-50.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-51",
+  "file": "kaggle/train-51.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-52",
+  "file": "kaggle/train-52.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-53",
+  "file": "kaggle/train-53.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-54",
+  "file": "kaggle/train-54.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-train-55",
+  "file": "kaggle/train-55.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-train-56",
+  "file": "kaggle/train-56.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-57",
+  "file": "kaggle/train-57.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-58",
+  "file": "kaggle/train-58.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-59",
+  "file": "kaggle/train-59.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-61",
+  "file": "kaggle/train-61.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-63",
+  "file": "kaggle/train-63.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-64",
+  "file": "kaggle/train-64.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-train-68",
+  "file": "kaggle/train-68.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-69",
+  "file": "kaggle/train-69.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-70",
+  "file": "kaggle/train-70.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-71",
+  "file": "kaggle/train-71.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-73",
+  "file": "kaggle/train-73.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-75",
+  "file": "kaggle/train-75.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-76",
+  "file": "kaggle/train-76.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-77",
+  "file": "kaggle/train-77.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-train-79",
+  "file": "kaggle/train-79.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-train-80",
+  "file": "kaggle/train-80.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-val-1",
+  "file": "kaggle/val-1.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-val-3",
+  "file": "kaggle/val-3.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-val-8",
+  "file": "kaggle/val-8.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-val-9",
+  "file": "kaggle/val-9.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-val-22",
+  "file": "kaggle/val-22.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-val-24",
+  "file": "kaggle/val-24.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-val-32",
+  "file": "kaggle/val-32.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-val-42",
+  "file": "kaggle/val-42.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-val-62",
+  "file": "kaggle/val-62.jpg",
+  "source": "kaggle",
+  "tier": "human"
+ },
+ {
+  "id": "k-val-74",
+  "file": "kaggle/val-74.jpg",
+  "source": "kaggle",
+  "tier": "ai"
+ },
+ {
+  "id": "k-val-78",
+  "file": "kaggle/val-78.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-test-11",
+  "file": "kaggle/test-11.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-test-12",
+  "file": "kaggle/test-12.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-test-28",
+  "file": "kaggle/test-28.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-test-45",
+  "file": "kaggle/test-45.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-test-60",
+  "file": "kaggle/test-60.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-test-66",
+  "file": "kaggle/test-66.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-test-67",
+  "file": "kaggle/test-67.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "k-test-72",
+  "file": "kaggle/test-72.jpg",
+  "source": "kaggle",
+  "tier": "dev"
+ },
+ {
+  "id": "own-1",
+  "file": "own/1.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "black Tesla Model 3",
+  "view": "full left side, far away"
+ },
+ {
+  "id": "own-2",
+  "file": "own/2.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "black Tesla Model 3",
+  "view": "rear left corner"
+ },
+ {
+  "id": "own-3",
+  "file": "own/3.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "black Tesla Model 3",
+  "view": "front left corner"
+ },
+ {
+  "id": "own-4",
+  "file": "own/4.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "black Tesla Model 3",
+  "view": "front"
+ },
+ {
+  "id": "own-5",
+  "file": "own/5.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "black Tesla Model 3",
+  "view": "front right corner"
+ },
+ {
+  "id": "own-6",
+  "file": "own/6.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "blue Toyota Auris",
+  "view": "rear right three-quarter"
+ },
+ {
+  "id": "own-7",
+  "file": "own/7.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "blue Toyota Auris",
+  "view": "rear right corner"
+ },
+ {
+  "id": "own-8",
+  "file": "own/8.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "blue Toyota Auris",
+  "view": "right side, doors, slightly blurred"
+ },
+ {
+  "id": "own-9",
+  "file": "own/9.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "blue Toyota Auris",
+  "view": "front right corner from the side"
+ },
+ {
+  "id": "own-10",
+  "file": "own/10.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "blue Toyota Auris",
+  "view": "front, from the right"
+ },
+ {
+  "id": "own-11",
+  "file": "own/11.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "blue Toyota Auris",
+  "view": "front left corner"
+ },
+ {
+  "id": "own-12",
+  "file": "own/12.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "blue Toyota Auris",
+  "view": "front left side, blurred"
+ },
+ {
+  "id": "own-13",
+  "file": "own/13.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "blue Toyota Auris",
+  "view": "left side, front door, slightly blurred"
+ },
+ {
+  "id": "own-14",
+  "file": "own/14.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "blue Toyota Auris",
+  "view": "left side, doors, poor quality"
+ },
+ {
+  "id": "own-15",
+  "file": "own/15.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "blue Toyota Auris",
+  "view": "rear left corner"
+ },
+ {
+  "id": "own-16",
+  "file": "own/16.jpg",
+  "source": "own",
+  "tier": "human",
+  "car": "grey BMW 3 Series",
+  "view": "front, far away"
+ }
+]

@@ -1,0 +1,94 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-38",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear right three-quarter view of an older white hatchback with the tailgate open",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 92.4,
+    "brightness": 72.5,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "older white hatchback, rear right corner",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-38",
+   "reason": "The rear right body panel beside the tail lamp is creased and buckled with torn, scraped paint along the fold.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f1"
+  },
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-38",
+   "reason": "The lower white section of the bumper is dented and scraped near the right corner with chipped paint and a loose-looking edge.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "minor",
+   "damage_type_alt": "scratch",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "trunk_lid",
+   "part_name": "Trunk lid or liftgate",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-38",
+   "reason": "The rear panel below the open tailgate seems to be pushed in and wrinkled toward the right corner, but it could belong to the body panel rather than the tailgate.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The rear corner panel is creased and torn at the fold beside the tail lamp, and the panel edges appear distorted, which suggests the impact may have reached the underlying rear body structure.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03013,
+ "latency_s": 4.7,
+ "tokens_in": 9258,
+ "tokens_out": 1161,
+ "runs_failed": 0
+}

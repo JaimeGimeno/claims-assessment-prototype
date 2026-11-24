@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-13",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear of silver VW hatchback, tailgate and right tail lamp",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 59.3,
+    "brightness": 113.5,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver Volkswagen hatchback (Fox/Gol type), rear view",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "trunk_lid",
+   "part_name": "Trunk lid or liftgate",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-13",
+   "reason": "Clear dent with creasing across the tailgate near the VW badge and lock; paint appears intact.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02481,
+ "latency_s": 3.0,
+ "tokens_in": 9258,
+ "tokens_out": 629,
+ "runs_failed": 0
+}

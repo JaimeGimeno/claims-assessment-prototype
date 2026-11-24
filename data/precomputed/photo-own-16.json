@@ -1,0 +1,46 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-16",
+   "usable": false,
+   "issue": "too_far",
+   "issue_text": "taken from too far",
+   "runs_disagree": false,
+   "view": "Front view of a BMW coupe parked in a garage bay next to a pillar, taken from several metres away",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 576.8,
+    "brightness": 118.4,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Grey-brown BMW 3 Series coupe or convertible, seen from the front",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [
+  "Close photos of the damaged area from about one metre, showing the damaged panels clearly",
+  "Photos of all four sides of the car, since no damage is visible in this front view"
+ ],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02835,
+ "latency_s": 3.5,
+ "tokens_in": 11224,
+ "tokens_out": 591,
+ "runs_failed": 0
+}

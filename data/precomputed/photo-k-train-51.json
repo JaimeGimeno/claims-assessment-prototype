@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-51",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Front three-quarter view from the front left, showing the front bumper, hood, grille, left headlamp and left side of the car",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 256.4,
+    "brightness": 68.6,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver VW Golf hatchback (older generation), seen from the front left",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-51",
+   "reason": "The front edge of the hood on the right side of the photo (the car's left) shows a crumpled, buckled area with creasing lines running back across the panel.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f1"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "right",
+   "damage_type": "broken_lamp",
+   "severity": "moderate",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-51",
+   "reason": "The headlamp at the far side of the photo (the car's right) looks displaced or broken, with a bright reflective, disturbed area at the corner.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The hood is buckled near the front corner and the headlamp looks displaced, so the impact may have reached the front panel or the area behind the bumper.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03028,
+ "latency_s": 5.5,
+ "tokens_in": 9258,
+ "tokens_out": 1176,
+ "runs_failed": 0
+}

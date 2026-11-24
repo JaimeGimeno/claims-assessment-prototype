@@ -1,0 +1,156 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-1",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "full left side",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 585.3,
+    "brightness": 128.9,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-2",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear left corner",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 341.0,
+    "brightness": 131.1,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-3",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left corner and fender",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 502.5,
+    "brightness": 112.6,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-4",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front straight on",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 449.0,
+    "brightness": 110.7,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-5",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front right three-quarter",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 418.6,
+    "brightness": 91.6,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Black Tesla Model 3 sedan with Tesla badge",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "own-2",
+   "reason": "Scraped rear left corner of the bumper with paint scuffed away and light-coloured transfer marks near the wheel arch edge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "own-2",
+   "reason": "Scratches and scuffing along the lower rear edge of the left quarter panel next to the bumper, with a possible slight dent along the crease.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "low",
+   "photo_id": "own-3",
+   "reason": "Possible scuffing at the front edge of the left fender near the headlamp and bumper; hard to confirm in the dim, dusty photo.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.07449,
+ "latency_s": 9.5,
+ "tokens_in": 30216,
+ "tokens_out": 1405,
+ "runs_failed": 0
+}

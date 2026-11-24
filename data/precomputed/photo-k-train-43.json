@@ -1,0 +1,108 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-43",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front right corner close-up showing bumper, headlamp, fender and wheel",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 764.7,
+    "brightness": 121.9,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark grey/black hatchback or small car with Citroen badge, steel-look wheel covers",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "right",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-43",
+   "reason": "Right end of the bumper cover is torn, buckled and deformed, with fog lamp surround and lower section broken and pushed in.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "right",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-43",
+   "reason": "Headlamp lens is smashed with multiple cracks and broken internals.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-43",
+   "reason": "Front edge of the right fender is crumpled and distorted near the headlamp and bumper junction.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  },
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "minor",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-43",
+   "reason": "Hood edge near the right headlamp appears slightly misaligned or lifted, but it is hard to judge in the photo.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "Impact at the front corner has pushed the bumper and headlamp mounting area in and the fender and hood edges look misaligned, so the bumper support and the structure behind it could be affected.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03195,
+ "latency_s": 9.2,
+ "tokens_in": 9258,
+ "tokens_out": 1343,
+ "runs_failed": 0
+}

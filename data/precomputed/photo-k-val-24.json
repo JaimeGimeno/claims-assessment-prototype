@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-val-24",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear left three-quarter view at night, showing rear bumper corner and left rear quarter",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 152.8,
+    "brightness": 103.0,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "silver three-door hatchback with rear spoiler",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-24",
+   "reason": "The left corner of the rear bumper cover is torn and crumpled, with broken fragments and a displaced edge by the wheel.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-val-24",
+   "reason": "The lower rear quarter panel behind and above the wheel arch is deformed and scraped, with distortion near the bumper junction.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The impact at the rear corner crumpled the bumper and lower quarter panel, so the bumper reinforcement and rear body structure behind it may be affected.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03013,
+ "latency_s": 4.3,
+ "tokens_in": 9258,
+ "tokens_out": 1161,
+ "runs_failed": 0
+}

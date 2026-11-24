@@ -1,0 +1,143 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-31",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front three-quarter view from the front right, in a workshop",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 458.4,
+    "brightness": 127.1,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Red BMW compact hatchback (3 Series Compact), dusty, in a workshop",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "right",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-31",
+   "reason": "The bumper cover is torn and broken at the right corner, with a jagged edge and the lower section hanging loose.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "right",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-31",
+   "reason": "The right headlamp is displaced and its surround is broken, exposing the mounting structure.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-31",
+   "reason": "The hood is buckled and creased across the front and right side, and it is misaligned with the fender.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f3"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-31",
+   "reason": "The front edge of the right fender is crumpled and pushed in near the headlamp, and the panel gap to the hood is uneven.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "moderate",
+   "confidence": "low",
+   "id": "f4"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "left",
+   "damage_type": "broken_lamp",
+   "severity": "severe",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-31",
+   "reason": "The left headlamp area looks empty or dark, and the surround is deformed, so the lamp appears damaged or missing.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "moderate",
+   "damage_type_alt": "missing_part",
+   "confidence": "low",
+   "id": "f5"
+  },
+  {
+   "part": "grille",
+   "part_name": "Grille",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-31",
+   "reason": "The grille appears shifted by the hood and bumper deformation, but it is hard to say whether the grille itself is damaged.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f6"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The hood is buckled, the front end is heavily deformed, and the headlamp mounting area is exposed. Panel gaps no longer line up, which suggests damage to the radiator support or front structure.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03616,
+ "latency_s": 6.3,
+ "tokens_in": 9258,
+ "tokens_out": 1764,
+ "runs_failed": 0
+}

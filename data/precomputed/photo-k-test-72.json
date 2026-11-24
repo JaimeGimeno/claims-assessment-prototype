@@ -1,0 +1,78 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-test-72",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "close-up of front corner and wheel arch of a dark blue car, with a grey/silver panel at left",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 239.5,
+    "brightness": 135.1,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark blue vehicle, front wing and wheel arch close-up, with a silver-grey panel (another car or bumper) touching the front",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "unknown",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-test-72",
+   "reason": "Front wing is crumpled and creased near the front edge and the wheel-arch lip is bent inward, with heavy paint transfer and scraping.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "unknown",
+   "damage_type": "missing_part",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "low",
+   "photo_id": "k-test-72",
+   "reason": "The front corner next to the wing looks displaced or detached, with the headlamp area and mounting brackets exposed, but it is unclear which part is missing.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "minor",
+   "damage_type_alt": "scratch",
+   "confidence": "low",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The wheel-arch lip is bent and the front corner is pushed in with exposed brackets, so the impact may have reached the mounting structure behind the panel.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03011,
+ "latency_s": 5.2,
+ "tokens_in": 9258,
+ "tokens_out": 1159,
+ "runs_failed": 0
+}

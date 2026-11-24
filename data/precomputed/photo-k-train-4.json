@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-4",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front corner close-up of bumper, grille and headlamp",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 25.0,
+    "brightness": 105.2,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver/white small hatchback or compact car, front corner close-up",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "unknown",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-4",
+   "reason": "Large deep dent with a crease line in the bumper cover at the corner by the wheel; paint looks intact, though it may need repainting.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02566,
+ "latency_s": 4.1,
+ "tokens_in": 9258,
+ "tokens_out": 714,
+ "runs_failed": 0
+}

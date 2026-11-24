@@ -1,0 +1,141 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-6",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear right three-quarter view",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 626.8,
+    "brightness": 117.3,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-7",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear right corner close view",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 370.8,
+    "brightness": 114.7,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-8",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "right side of doors",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 251.7,
+    "brightness": 115.3,
+    "width": 1200,
+    "height": 1600
+   }
+  },
+  {
+   "photo_id": "own-9",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front right three-quarter view",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 201.2,
+    "brightness": 116.2,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Blue Toyota Auris hatchback, 5-door, 2009-era model",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "own-8",
+   "reason": "Scrape marks and a slight dent with paint damage near the rear edge of the right rear door by the door gap.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "own-8",
+   "reason": "Scuffing and scratches on the rear edge of the right front door next to the rear door damage.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f2"
+  },
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "own-7",
+   "reason": "Scratches and scuffs on the right rear corner of the bumper, with a deformed area near the tail lamp edge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "dent",
+   "confidence": "high",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.06241,
+ "latency_s": 8.8,
+ "tokens_in": 25476,
+ "tokens_out": 1145,
+ "runs_failed": 0
+}

@@ -1,0 +1,93 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-27",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left three-quarter view",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 453.1,
+    "brightness": 124.1,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Green compact sedan (Saturn Ion style), 4-door",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-27",
+   "reason": "Hood is buckled and creased upward with a folded front edge and paint damage near the front left corner.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-27",
+   "reason": "Bumper cover at the front left looks torn and pushed in, with the front edge deformed and the area above it open.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "missing_part",
+   "confidence": "medium",
+   "id": "f2"
+  },
+  {
+   "part": "grille",
+   "part_name": "Grille",
+   "side": "center",
+   "damage_type": "missing_part",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-27",
+   "reason": "Grille area is not visible and the engine bay is exposed, so the grille appears to be missing or broken.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The hood is buckled and the front end is exposed, which suggests a heavy frontal impact that may have affected the radiator support and the structure behind the bumper.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03021,
+ "latency_s": 4.8,
+ "tokens_in": 9258,
+ "tokens_out": 1169,
+ "runs_failed": 0
+}

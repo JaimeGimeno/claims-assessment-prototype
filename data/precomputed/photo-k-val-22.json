@@ -1,0 +1,109 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-val-22",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front-left corner of a dark teal-grey sedan pressed against the rear corner of a silver sedan in a parking lot",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 199.8,
+    "brightness": 114.0,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark teal-grey sedan, front corner hit; silver sedan beside it",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-val-22",
+   "reason": "Front corner of the left fender is crumpled and creased near the headlamp, with a long deformation line running back across the panel.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-val-22",
+   "reason": "Left end of the bumper cover is pushed in and deformed where it contacts the other car.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "crack",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "headlamp",
+   "part_name": "Headlamp",
+   "side": "left",
+   "damage_type": "broken_lamp",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-val-22",
+   "reason": "Headlamp at the impact corner is partly hidden and looks pushed against the other car, so its condition is uncertain.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f3"
+  },
+  {
+   "part": "hood",
+   "part_name": "Hood",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-val-22",
+   "reason": "Left front edge of the hood near the headlamp appears slightly distorted, and the hood edge looks lifted at the rear corner.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "Heavy crumpling at the front corner with a deformation line across the fender and the bumper pushed in suggests damage may reach the structure behind the bumper and fender.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03254,
+ "latency_s": 5.5,
+ "tokens_in": 9258,
+ "tokens_out": 1402,
+ "runs_failed": 0
+}

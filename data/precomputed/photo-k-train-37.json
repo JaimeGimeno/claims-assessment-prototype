@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-37",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear left three-quarter view of an Audi A8L, showing trunk lid, left tail lamp and rear bumper",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 275.6,
+    "brightness": 83.0,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Black Audi A8L luxury sedan",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "trunk_lid",
+   "part_name": "Trunk lid or liftgate",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-37",
+   "reason": "A crease-like dent runs along the trunk lid's left edge above the tail lamp, and the reflections are distorted; the paint looks intact.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02553,
+ "latency_s": 3.8,
+ "tokens_in": 9258,
+ "tokens_out": 701,
+ "runs_failed": 0
+}

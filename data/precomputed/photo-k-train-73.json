@@ -1,0 +1,108 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-73",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear corner, left side of a silver sedan, close-up of quarter panel, rear bumper and tail lamp",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 685.8,
+    "brightness": 153.2,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver sedan, rear left corner view",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-73",
+   "reason": "Large creased dent across the rear quarter panel behind the fuel door, with the panel edge pushed in toward the bumper.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f1"
+  },
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "left",
+   "damage_type": "crack",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-73",
+   "reason": "Bumper cover is split or pulled away along the top edge at the quarter panel, exposing the inner edge and leaving a visible gap.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-73",
+   "reason": "Large deep crease and deformation across the quarter panel above and around the fuel door, extending down to the bumper junction.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f3"
+  },
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "right",
+   "damage_type": "crack",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": false,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-73",
+   "reason": "The bumper cover is split and has pulled away from the quarter panel, leaving a ragged gap along the joint.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The quarter panel is creased and pushed in, with the gap opened at the bumper seam, which may indicate deformation of the rear body structure behind the panel.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02817,
+ "latency_s": 4.6,
+ "tokens_in": 9258,
+ "tokens_out": 965,
+ "runs_failed": 0
+}

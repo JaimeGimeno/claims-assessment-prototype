@@ -1,0 +1,14 @@
+{
+ "photos_labelled": 46,
+ "photos_with_a_disputed_finding": 34,
+ "findings_all_labellers_reported": 61.9,
+ "findings_with_unanimous_severity": 65.7,
+ "agreement_with_human": {
+  "photos": 20,
+  "human_findings_also_in_ai_labels": 95.6,
+  "ai_label_findings_confirmed_by_human_labels": 97.9,
+  "damage_type_agreement": 87.2,
+  "severity_agreement": 85.1,
+  "side_agreement": 97.9
+ }
+}

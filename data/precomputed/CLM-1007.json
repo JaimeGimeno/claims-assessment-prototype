@@ -1,0 +1,77 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-79",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear three-quarter view from the right side showing the rear bumper corner, quarter panel and rear wheel",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 419.7,
+    "brightness": 101.8,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Grey Peugeot 207 hatchback, rear right corner",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-79",
+   "reason": "Scuffs and paint transfer along the right rear bumper corner and lower edge, consistent with scraping a wall.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "minor",
+   "confidence": "medium",
+   "id": "f1"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-79",
+   "reason": "Scrape marks with paint scuffing on the right rear quarter panel above and behind the wheel arch, with no visible dent.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02704,
+ "latency_s": 4.0,
+ "tokens_in": 9306,
+ "tokens_out": 842,
+ "runs_failed": 0
+}

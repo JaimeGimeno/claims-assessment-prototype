@@ -1,0 +1,18 @@
+{
+ "total": 23.46,
+ "by_model": {
+  "gemini-3.1-pro-preview": 5.30066,
+  "claude-opus-5-5": 7.60902,
+  "claude-haiku-5-5": 0.36232,
+  "gemini-3.5-flash": 0.70065,
+  "claude-sonnet-5-5": 4.89287,
+  "gpt-5": 3.84779
+ },
+ "by_purpose": {
+  "eval": 11.84588,
+  "sample_photo_runs": 3.46746,
+  "ai_labelling": 7.39997,
+  "prompt_writing": 0.75
+ },
+ "note": "Claude prices are published. Gemini prices are estimates, so that part of the total is approximate."
+}

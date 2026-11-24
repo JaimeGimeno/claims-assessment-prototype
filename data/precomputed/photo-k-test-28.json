@@ -1,0 +1,109 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-test-28",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front three-quarter view from the left side showing the front and left side of the car",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 170.6,
+    "brightness": 104.8,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Grey-green VW Gol-type small 3-door hatchback",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-test-28",
+   "reason": "Left door is deeply crushed and creased along its length with torn, buckled metal and scraped paint.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-test-28",
+   "reason": "Sill under the door is bent and buckled inward, with creased metal.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-test-28",
+   "reason": "Rear edge of the front fender next to the door is pushed in and rippled, with paint marks.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "low",
+   "photo_id": "k-test-28",
+   "reason": "Rear left side panel shows some marks and slight waviness, but it is hard to tell from this angle.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "damage_type_alt": "dent",
+   "confidence": "low",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "Heavy side impact has crushed the left door and sill and deformed the area near the door pillar and fender edge, so the body structure may be affected.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03099,
+ "latency_s": 4.7,
+ "tokens_in": 9258,
+ "tokens_out": 1247,
+ "runs_failed": 0
+}

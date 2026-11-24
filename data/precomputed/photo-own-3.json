@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "own-3",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front left three-quarter view of a dark Tesla in a parking garage, showing the left fender, wheel, mirror and front corner",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 502.5,
+    "brightness": 112.6,
+    "width": 1200,
+    "height": 1600
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Black Tesla Model 3 sedan",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "own-3",
+   "reason": "The front edge of the left fender has a sharp crease and deformation near the headlamp, with an irregular surface and the panel edge pushed out of line.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The fender is creased at the front corner and the surrounding corner looks misaligned, which suggests a front-corner impact that may have affected the parts behind the bumper and fender.",
+ "structural_runs": "1 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.03169,
+ "latency_s": 4.9,
+ "tokens_in": 11224,
+ "tokens_out": 925,
+ "runs_failed": 0
+}

@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-68",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Close-up of a front door lower section and the front wheel area, taken in a workshop",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 398.7,
+    "brightness": 102.2,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark grey or black hatchback or compact car, seen from the side in a workshop",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "unknown",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": false,
+   "stated_confidence": "high",
+   "photo_id": "k-train-68",
+   "reason": "The lower front door has a deep dent with sharp creases and folds in the panel, running toward the sill.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The impact is deep and creased at the lower door, right next to the sill, so the sill or door structure may be deformed.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02716,
+ "latency_s": 4.2,
+ "tokens_in": 9258,
+ "tokens_out": 864,
+ "runs_failed": 0
+}

@@ -1,0 +1,28 @@
+# Runs the demo as one container. It is reachable only from the machine itself
+# (127.0.0.1:8791) and from the reverse proxy's Docker network.
+services:
+  claims-demo:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      SECURE_COOKIES: "1"
+    ports:
+      - "127.0.0.1:8791:8000"
+    volumes:
+      - claims_state:/app/state
+    networks:
+      default:
+      proxy:
+        aliases: [claims-demo]
+    mem_limit: 700m
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+volumes:
+  claims_state:
+networks:
+  proxy:
+    external: true
+    name: ${PROXY_NETWORK:-proxy_default}

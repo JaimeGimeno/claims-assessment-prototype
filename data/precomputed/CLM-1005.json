@@ -1,0 +1,93 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-17",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "left side of the car showing front and rear doors, sill and rear wheel, taken at night",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 232.2,
+    "brightness": 76.6,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Silver VW hatchback (Polo-like) with a VW wheel badge, left side",
+  "match": "yes",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "yes",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "front_door",
+   "part_name": "Front door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-17",
+   "reason": "Large crushed dent with creasing along the lower half of the door and paint scraped away at the rear edge.",
+   "agreement": "severity_differs",
+   "source": "ai",
+   "severity_alt": "moderate",
+   "confidence": "medium",
+   "id": "f1"
+  },
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-17",
+   "reason": "Deep pushed-in dent with creases and torn, scraped paint at the lower front corner.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f2"
+  },
+  {
+   "part": "rocker_panel",
+   "part_name": "Rocker panel",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "unclear",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-17",
+   "reason": "Sill below the doors looks scuffed and deformed where the impact is deepest.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f3"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "Both doors are deeply pushed in at the lower B-pillar area and the sill is affected, so the body structure beneath may be damaged.",
+ "structural_runs": "2 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02917,
+ "latency_s": 4.4,
+ "tokens_in": 9338,
+ "tokens_out": 1049,
+ "runs_failed": 0
+}

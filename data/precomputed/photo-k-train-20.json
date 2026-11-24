@@ -1,0 +1,108 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-20",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "front corner close-up showing headlamp, fender, front bumper corner and front wheel",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 233.4,
+    "brightness": 106.3,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Grey/blue VW hatchback (Golf-type), front corner",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "left",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-20",
+   "reason": "Sharp crease and fold in the fender near the wheel arch and headlamp with chipped, scraped paint.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f1"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "left",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "medium",
+   "photo_id": "k-train-20",
+   "reason": "Scuffs and paint scrapes along the lower corner of the bumper cover.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  },
+  {
+   "part": "fender",
+   "part_name": "Fender",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-20",
+   "reason": "Sharp crease and fold in the fender metal at the wheel arch lip with paint cracked and scraped.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f3"
+  },
+  {
+   "part": "front_bumper",
+   "part_name": "Front bumper",
+   "side": "right",
+   "damage_type": "scratch",
+   "severity": "minor",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-20",
+   "reason": "Paint scrapes and scuffs along the lower right front bumper corner.",
+   "agreement": "one_run",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f4"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02703,
+ "latency_s": 4.2,
+ "tokens_in": 9258,
+ "tokens_out": 851,
+ "runs_failed": 0
+}

@@ -1,0 +1,76 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-train-80",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "rear right three-quarter view of an older maroon sedan",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 1724.4,
+    "brightness": 104.2,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "older maroon Proton sedan (Saga-type), seen from rear right",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_bumper",
+   "part_name": "Rear bumper",
+   "side": "center",
+   "damage_type": "dent",
+   "severity": "severe",
+   "action": "replace",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-train-80",
+   "reason": "Rear bumper is buckled and creased across its width with paint scuffed, and the right end is deformed.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "high",
+   "id": "f1"
+  },
+  {
+   "part": "quarter_panel",
+   "part_name": "Quarter panel",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": false,
+   "stated_confidence": "low",
+   "photo_id": "k-train-80",
+   "reason": "The panel above the rear wheel looks rippled and uneven, but the old paint and reflections make it hard to tell if this is impact damage.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "low",
+   "id": "f2"
+  }
+ ],
+ "structural_suspected": true,
+ "structural_reason": "The rear bumper is heavily crushed, so the bumper reinforcement and rear panel behind it may be damaged and should be checked.",
+ "structural_runs": "1 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "small_standard",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02861,
+ "latency_s": 5.5,
+ "tokens_in": 9258,
+ "tokens_out": 1009,
+ "runs_failed": 0
+}

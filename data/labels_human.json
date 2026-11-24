@@ -1,0 +1,941 @@
+{
+ "k-train-17": {
+  "findings": [
+   {
+    "part": "rear_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe"
+   },
+   {
+    "part": "front_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "also_ok_severity": [
+     "moderate"
+    ]
+   },
+   {
+    "part": "rocker_panel",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "minor",
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "note": "dent with scratches"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, corrected by Jaime"
+ },
+ "k-train-51": {
+  "findings": [
+   {
+    "part": "headlamp",
+    "side": "right",
+    "damage_type": "broken_lamp",
+    "severity": "severe"
+   },
+   {
+    "part": "hood",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "note": "dented inwards centre-right, appears not to close"
+   },
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, corrected by Jaime"
+ },
+ "k-train-79": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, confirmed by Jaime"
+ },
+ "k-train-49": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "also_ok_severity": [
+     "severe"
+    ],
+    "note": "creased inwards at the corner; repair vs replace unclear"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, discussed with Jaime"
+ },
+ "k-train-16": {
+  "findings": [
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "note": "with scratches"
+   },
+   {
+    "part": "rear_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "note": "with scratches; no crease"
+   },
+   {
+    "part": "rocker_panel",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "also_ok_severity": [
+     "severe"
+    ],
+    "note": "creased, with scratches; missed by the AI draft, added by Jaime"
+   },
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, corrected by Jaime"
+ },
+ "k-train-6": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "also_ok_severity": [
+     "severe"
+    ],
+    "note": "large dent with paint transfer"
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "optional": true,
+    "note": "paint transfer above the wheel, barely visible; not penalised if missed"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, confirmed by Jaime"
+ },
+ "k-val-62": {
+  "findings": [
+   {
+    "part": "rear_door",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "note": "several areas; low light, possible slight dent"
+   },
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "note": "deep scratches in bands above the wheel"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, confirmed by Jaime"
+ },
+ "k-train-63": {
+  "findings": [
+   {
+    "part": "trunk_lid",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "large dent, creased metal, mostly on the left"
+   },
+   {
+    "part": "rear_bumper",
+    "side": "left",
+    "damage_type": "crack",
+    "severity": "severe",
+    "note": "broken and hanging on the left"
+   },
+   {
+    "part": "tail_lamp",
+    "side": "left",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "note": "dark, hard to see"
+   },
+   {
+    "part": "tail_lamp",
+    "side": "right",
+    "damage_type": "broken_lamp",
+    "severity": "moderate",
+    "also_ok_severity": [
+     "minor",
+     "severe"
+    ],
+    "optional": true,
+    "note": "lit but held with tape, probably displaced; added by Jaime"
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, corrected by Jaime"
+ },
+ "k-train-68": {
+  "findings": [
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "several creases in the lower part"
+   },
+   {
+    "part": "rocker_panel",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "minor",
+    "optional": true,
+    "note": "very slight dent, per Jaime"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, corrected by Jaime"
+ },
+ "k-train-25": {
+  "findings": [
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "crushed and crumpled"
+   },
+   {
+    "part": "front_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "large dent with creases"
+   },
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "crack",
+    "severity": "severe",
+    "note": "broken and out of place"
+   },
+   {
+    "part": "headlamp",
+    "side": "left",
+    "damage_type": "broken_lamp",
+    "severity": "moderate",
+    "also_ok_severity": [
+     "severe"
+    ],
+    "optional": true,
+    "note": "displaced; lens not clearly broken"
+   },
+   {
+    "part": "rear_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "optional": true
+   },
+   {
+    "part": "rocker_panel",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "crumpled; missed by the AI draft, added by Jaime"
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, corrected by Jaime"
+ },
+ "k-train-36": {
+  "findings": [
+   {
+    "part": "trunk_lid",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "note": "large dent in the centre; Jaime sees no sharp crease but expects replacement"
+   },
+   {
+    "part": "rear_bumper",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "also_ok_damage_type": [
+     "crack"
+    ],
+    "note": "dented right corner, split at the bottom centre"
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": true,
+  "ambiguous": false,
+  "labelled_by": "AI draft, discussed with Jaime"
+ },
+ "k-train-44": {
+  "findings": [
+   {
+    "part": "quarter_panel",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "crushed and creased at the edge below the tail lamp"
+   },
+   {
+    "part": "rear_bumper",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "also_ok_damage_type": [
+     "dent"
+    ],
+    "note": "scratches, slightly out of place"
+   },
+   {
+    "part": "tail_lamp",
+    "side": "left",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "note": "broken at the lower tip; AI draft was unsure, Jaime confirmed"
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": true,
+  "ambiguous": false,
+  "labelled_by": "AI draft, corrected by Jaime"
+ },
+ "k-train-73": {
+  "findings": [
+   {
+    "part": "quarter_panel",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "also_ok_severity": [
+     "severe"
+    ],
+    "note": "pushed inwards above the fuel door"
+   },
+   {
+    "part": "rear_bumper",
+    "side": "left",
+    "damage_type": "missing_part",
+    "severity": "moderate",
+    "also_ok_damage_type": [
+     "dent"
+    ],
+    "also_ok_severity": [
+     "minor"
+    ],
+    "note": "detached from the quarter panel, gap visible; not broken, probably refits"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI draft, discussed with Jaime"
+ },
+ "k-train-20": {
+  "findings": [
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "creased, metal torn at the wheel-arch edge"
+   },
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, confirmed by Jaime"
+ },
+ "k-val-3": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "moderate",
+    "also_ok_damage_type": [
+     "crack"
+    ],
+    "also_ok_severity": [
+     "minor"
+    ],
+    "note": "scratches; unclear whether the plastic is punctured"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": true,
+  "labelled_by": "AI draft, confirmed by Jaime"
+ },
+ "k-train-2": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "also_ok_severity": [
+     "minor"
+    ],
+    "note": "clear dent with some scratches"
+   },
+   {
+    "part": "tail_lamp",
+    "side": "left",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "note": "lens broken at the lower corner; confirmed by Jaime"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, corrected by Jaime"
+ },
+ "k-val-1": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "moderate",
+    "also_ok_severity": [
+     "severe"
+    ],
+    "note": "deep dent with a crease, scratches below"
+   }
+  ],
+  "structural_suspected": false,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, confirmed by Jaime"
+ },
+ "k-train-27": {
+  "findings": [
+   {
+    "part": "hood",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "buckled and raised, large creases"
+   },
+   {
+    "part": "headlamp",
+    "side": "right",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "also_ok_damage_type": [
+     "broken_lamp"
+    ],
+    "note": "not visible in its place; inferred"
+   },
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "also_ok_damage_type": [
+     "crack",
+     "missing_part"
+    ],
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "note": "out of place, a piece sticks out"
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, confirmed by Jaime"
+ },
+ "k-train-18": {
+  "findings": [
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "large dent, creased at the rear edge"
+   },
+   {
+    "part": "rear_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "also_ok_part": [
+     "quarter_panel"
+    ],
+    "note": "crushed and creased; unclear if rear door or quarter panel of a 3-door car"
+   },
+   {
+    "part": "rocker_panel",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "crumpled and torn"
+   },
+   {
+    "part": "mirror",
+    "side": "right",
+    "damage_type": "missing_part",
+    "severity": "severe",
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "optional": true,
+    "note": "front cover missing; added by Jaime"
+   },
+   {
+    "part": "side_window",
+    "side": "right",
+    "damage_type": "shattered_glass",
+    "severity": "severe",
+    "optional": true,
+    "note": "glass missing, frames out of place; added by Jaime. Part not in the original parts list"
+   },
+   {
+    "part": "roof",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "optional": true,
+    "note": "dented above the windows; added by Jaime"
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, corrected by Jaime"
+ },
+ "k-val-32": {
+  "findings": [
+   {
+    "part": "trunk_lid",
+    "side": "",
+    "damage_type": "dent",
+    "severity": "severe",
+    "note": "creased top to bottom on the right"
+   },
+   {
+    "part": "rear_bumper",
+    "side": "",
+    "damage_type": "crack",
+    "severity": "severe",
+    "also_ok_damage_type": [
+     "dent",
+     "missing_part"
+    ],
+    "note": "broken on the right, hanging on the left"
+   },
+   {
+    "part": "tail_lamp",
+    "side": "right",
+    "damage_type": "broken_lamp",
+    "severity": "severe",
+    "note": "red lens gone"
+   }
+  ],
+  "structural_suspected": true,
+  "structural_uncertain": false,
+  "ambiguous": false,
+  "labelled_by": "AI draft, confirmed by Jaime"
+ },
+ "own-1": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "note": "behind the rear wheel; small at this distance"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": "marks on the doors are reflections, not damage"
+ },
+ "own-2": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor"
+   },
+   {
+    "part": "quarter_panel",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "optional": true,
+    "note": "very slight"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": ""
+ },
+ "own-3": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "optional": true,
+    "note": "not very clear"
+   },
+   {
+    "part": "fender",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "optional": true,
+    "note": "not very clear"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": true,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": ""
+ },
+ "own-4": {
+  "findings": [],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": "no damage visible"
+ },
+ "own-5": {
+  "findings": [],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": "no damage; marks are reflections"
+ },
+ "own-6": {
+  "findings": [
+   {
+    "part": "rear_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "minor",
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "note": "dent with scratches at the front edge"
+   },
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "minor",
+    "also_ok_damage_type": [
+     "scratch"
+    ],
+    "note": "very slight, at the rear edge"
+   },
+   {
+    "part": "rear_bumper",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor"
+   },
+   {
+    "part": "quarter_panel",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "optional": true
+   },
+   {
+    "part": "fender",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "minor",
+    "optional": true,
+    "note": "small dent; hard to see from this angle"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": ""
+ },
+ "own-7": {
+  "findings": [
+   {
+    "part": "rear_bumper",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": ""
+ },
+ "own-8": {
+  "findings": [
+   {
+    "part": "rear_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "minor",
+    "also_ok_severity": [
+     "moderate"
+    ],
+    "note": "dent with scratches at the front edge"
+   },
+   {
+    "part": "front_door",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "minor",
+    "also_ok_damage_type": [
+     "scratch"
+    ],
+    "note": "at the rear edge"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": ""
+ },
+ "own-9": {
+  "findings": [
+   {
+    "part": "fender",
+    "side": "right",
+    "damage_type": "dent",
+    "severity": "minor",
+    "also_ok_damage_type": [
+     "scratch"
+    ],
+    "note": "very slight"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": "front bumper unclear, not labelled"
+ },
+ "own-10": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "right",
+    "damage_type": "scratch",
+    "severity": "minor"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": "most marks are insects and dirt, not damage"
+ },
+ "own-11": {
+  "findings": [
+   {
+    "part": "front_bumper",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "note": "small"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": ""
+ },
+ "own-12": {
+  "findings": [],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": true,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": "too blurred; ask for another photo"
+ },
+ "own-13": {
+  "findings": [
+   {
+    "part": "front_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "minor",
+    "note": "at the seam between the two doors"
+   },
+   {
+    "part": "rear_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "minor",
+    "note": "at the seam between the two doors"
+   },
+   {
+    "part": "rocker_panel",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "also_ok_part": [
+     "front_door"
+    ],
+    "optional": true,
+    "note": "small mark at the bottom of the door"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": ""
+ },
+ "own-14": {
+  "findings": [
+   {
+    "part": "front_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "minor",
+    "note": "at the seam between the two doors"
+   },
+   {
+    "part": "rear_door",
+    "side": "left",
+    "damage_type": "dent",
+    "severity": "minor",
+    "note": "at the seam between the two doors"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": ""
+ },
+ "own-15": {
+  "findings": [
+   {
+    "part": "quarter_panel",
+    "side": "left",
+    "damage_type": "scratch",
+    "severity": "minor",
+    "optional": true,
+    "note": "AI sees scratches next to the fuel door; Jaime would ask for another photo"
+   }
+  ],
+  "structural_suspected": false,
+  "ambiguous": true,
+  "photo_unusable": true,
+  "also_ok_usable": true,
+  "labelled_by": "Jaime, with AI note",
+  "note": ""
+ },
+ "own-16": {
+  "findings": [],
+  "structural_suspected": false,
+  "ambiguous": false,
+  "photo_unusable": false,
+  "also_ok_usable": false,
+  "labelled_by": "Jaime",
+  "note": "no damage"
+ }
+}

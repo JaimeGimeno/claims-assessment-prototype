@@ -1,0 +1,60 @@
+{
+ "status": "ok",
+ "photos": [
+  {
+   "photo_id": "k-test-12",
+   "usable": true,
+   "issue": "none",
+   "issue_text": "",
+   "runs_disagree": false,
+   "view": "Side view of a dark grey car's right-side rear door and the lower rear door edge, taken at night with flash",
+   "gate": {
+    "ok": true,
+    "issue": "",
+    "sharpness": 56.2,
+    "brightness": 66.8,
+    "width": 1024,
+    "height": 1024
+   }
+  }
+ ],
+ "vehicle_check": {
+  "seen": "Dark grey Audi-style saloon or estate, right side, alloy wheel visible",
+  "match": "cannot_tell",
+  "reason": ""
+ },
+ "description_check": {
+  "consistent": "not_provided",
+  "reason": ""
+ },
+ "findings": [
+  {
+   "part": "rear_door",
+   "part_name": "Rear door",
+   "side": "right",
+   "damage_type": "dent",
+   "severity": "moderate",
+   "action": "repair",
+   "paint_damaged": true,
+   "stated_confidence": "high",
+   "photo_id": "k-test-12",
+   "reason": "The lower rear edge of the right rear door has a crease-like dent with a scraped, broken-paint patch near the bottom corner and a dent running along the lower door edge.",
+   "agreement": "both_runs",
+   "source": "ai",
+   "confidence": "medium",
+   "id": "f1"
+  }
+ ],
+ "structural_suspected": false,
+ "structural_reason": "",
+ "structural_runs": "0 of 2",
+ "info_requests": [],
+ "suggested_vehicle_class": "midsize_luxury",
+ "n_runs": 2,
+ "model": "claude-sonnet-5-5",
+ "cost_usd": 0.02754,
+ "latency_s": 4.6,
+ "tokens_in": 9258,
+ "tokens_out": 902,
+ "runs_failed": 0
+}
